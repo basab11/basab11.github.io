@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breadboard Fundamentals &middot; Beginner Chapter 4 &middot; Bharat Tech-Shakti Mission</title>
+<meta name="description" content="Chapter 4 of the Beginner course. Build a working circuit with your hands, and find out what makes it stop working. What a learner is able to do by the end of the class.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to the main content</a>
+
+<header class="site-header">
+  <div class="masthead">
+    <div class="wrap">
+      <a class="wordmark" href="/">
+        <span class="wordmark-name">Bharat Tech-Shakti Mission</span>
+        <span class="wordmark-tag">
+          <span class="deva" lang="hi">&#2360;&#2371;&#2332;&#2344; &#2360;&#2375; &#2358;&#2325;&#2381;&#2340;&#2367;</span>
+          <span class="sep" aria-hidden="true">&middot;</span>
+          <span class="wordmark-translit">Srijan Se Shakti</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="site-nav-bar">
+    <div class="wrap">
+      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav" hidden>Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/courses/">Courses</a></li>
+          <li><a href="/lab/">Lab</a></li>
+          <li><a href="/learning/" aria-current="page">Learning Material</a></li>
+          <li><a href="/activities/">Activities</a></li>
+          <li><a href="/apply/">Apply</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <svg class="mark" viewBox="0 0 64 64" role="img" aria-label="Chapter 4 mark">
+      <rect class="ink" x="7" y="15" width="50" height="35" rx="3"/>
+      <path class="ink" d="M7 32.5h50"/>
+      <circle class="ink-fill" cx="15" cy="23" r="1.7"/>
+      <circle class="ink-fill" cx="24" cy="23" r="1.7"/>
+      <circle class="ink-fill" cx="33" cy="23" r="1.7"/>
+      <circle class="ink-fill" cx="15" cy="42" r="1.7"/>
+      <circle class="ink-fill" cx="24" cy="42" r="1.7"/>
+      <circle class="ink-fill" cx="33" cy="42" r="1.7"/>
+      <circle class="hot-fill" cx="46" cy="23" r="3.4"/>
+      <path class="hot" d="M46 27v15"/>
+    </svg>
+
+    <p class="card-link-kicker">Beginner course &middot; Chapter 4 of 8</p>
+    <h1 class="accent-bar">Breadboard Fundamentals</h1>
+
+    <p class="lede">Build a working circuit with your hands, and find out what makes it stop working.</p>
+
+    <div class="notice">
+      <p>This page lists what a learner is able to do at the end of this class.
+      It does not carry the class itself. The lessons, exercises and answers
+      stay in the classroom and in the book.</p>
+    </div>
+
+    <h2>What you will be able to do</h2>
+    <ul>
+      <li>Wire a simple LED circuit from scratch, including a push button switch</li>
+      <li>Explain why electricity needs a complete loop to flow</li>
+      <li>Know which components care about direction and which do not</li>
+      <li>Read a breadboard: the rows, the power rails, the gap down the middle</li>
+      <li>Treat a failure as information rather than as a mistake</li>
+    </ul>
+
+    <h2>What the class is really about</h2>
+    <p>People ask why there are breadboards, wires and batteries in a course
+    about AI. This is the answer.</p>
+
+    <p>A machine you have built with your own hands stops being magic. Until you
+    have wired something, a computer is a sealed box that either works or does
+    not, and when it goes wrong you have no way of thinking about why. After you
+    have wired something, you carry a model in your head of what is going on in
+    there.</p>
+
+    <p>The class is three builds. One LED. Then two LEDs in a row. Then LEDs
+    with a push button so you can switch them yourself. Nothing here is
+    difficult and all of it is physical.</p>
+
+    <p>What actually does the teaching is the failure. Put the LED in the wrong
+    way round and nothing happens. No error message, no explanation, no clue. A
+    dark LED that looks exactly like a working one. You then have to reason your
+    way back to the cause. A learner who has done that has learned, in their
+    hands, that a machine does only what it was given, and that a thing can fail
+    silently while looking perfectly fine.</p>
+
+    <p>That is the same lesson as a chatbot handing you a confident wrong
+    number, and we teach it with a wire first because a wire is much easier to
+    inspect than a sentence. The learner who has already met silent failure in
+    a circuit is far harder to fool with a fluent paragraph.</p>
+
+    <p>By the end you can look at a bare breadboard and read it. Which holes
+    are joined to which, where the power runs along the edges, and why there is
+    a gap down the middle.</p>
+
+    <h2>Careful use</h2>
+    <div class="card">
+      <p>Hardware limits. What a device can and cannot do, and why claims deserve checking.</p>
+      <p>Careful use is not a separate lesson at the end of the course. A piece
+      of it belongs to every one of the eight classes, and this is the piece
+      that belongs to this one.</p>
+    </div>
+
+    <h2>How this class is taught</h2>
+    <div class="card">
+      <ul>
+        <li><strong>One core concept.</strong> The class carries a single idea.
+        Nothing is covered twice and nothing is rushed.</li>
+        <li><strong>Hands before theory.</strong> You do the thing first. The
+        explanation lands better once you have seen what happened.</li>
+        <li><strong>Practice in company.</strong> Weekday slots in the lab
+        follow the weekend class, with somebody there to help.</li>
+        <li><strong>Mixed ages at one table.</strong> The youngest in a batch
+        may be ten and the oldest past fifty. Each takes something from the
+        other.</li>
+      </ul>
+    </div>
+
+    <svg class="rule-mark" viewBox="0 0 400 10" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+      <rect class="hot-fill" x="0" y="3" width="86" height="4"/>
+      <rect class="ink-fill" x="94" y="4.4" width="306" height="1.4"/>
+    </svg>
+
+    <p><a href="/learning/beginner/ch3/">Chapter 3, How Machines Learn</a> &middot; <a href="/learning/beginner/ch5/">Chapter 5, The Arduino and AI as Your Coder</a></p>
+    <p><a href="/learning/">All eight chapters</a></p>
+    <p><a class="btn" href="/apply/">How to apply</a></p>
+
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+
+      <div class="footer-block">
+        <h2>Bharat Tech-Shakti Mission</h2>
+        <p>Swami Pranavananda AI &amp; Robotics Lab</p>
+        <p>Bharat Sevashram Sangha, Sriniwaspuri, New Delhi</p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Reach us</h2>
+        <p><span class="footer-label">Admissions</span> <a href="tel:+918010484692">+91-80104-84692</a></p>
+        <p><span class="footer-label">Courses</span> <a href="tel:+919625677741">+91-96256-77741</a></p>
+        <p><a href="mailto:BharatTechShakti@gmail.com">BharatTechShakti@gmail.com</a></p>
+        <p><a href="https://www.facebook.com/bharattechshakti/">Facebook</a>
+           &middot; <a href="https://www.instagram.com/bharattechshakti/">Instagram</a>
+           &middot; <a href="https://x.com/Tech_Shakti">X</a></p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Pages</h2>
+        <p><a href="/courses/">Courses</a> &middot; <a href="/lab/">Lab</a></p>
+        <p><a href="/learning/">Learning Material</a> &middot; <a href="/activities/">Activities</a></p>
+        <p><a href="/apply/">Apply</a> &middot; <a href="/contact/">Contact</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-legal">
+      <p>A volunteer-run initiative. Srijan Se Shakti, strength comes from making.</p>
+      <p>&copy; 2026 Bharat Tech-Shakti Mission &middot;
+         <a href="/legal/">Disclaimer and copyright</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/nav.js"></script>
+</body>
+</html>
