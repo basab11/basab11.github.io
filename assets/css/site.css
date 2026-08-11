@@ -504,6 +504,68 @@ figure img { border: 1px solid var(--grey); }
 .figure-bleed img { border: 0; }
 figure figcaption { color: var(--grey); font-size: 0.9375rem; margin-top: 0.5rem; }
 
+/* Two photographs side by side, for a moment that deserves a second view but
+   not a gallery. Stacks on a phone. */
+.figure-pair {
+  display: grid;
+  gap: 1rem;
+  margin: 0 0 1.5rem;
+}
+.figure-pair figure { margin: 0; }
+
+@media (min-width: 36em) {
+  .figure-pair { grid-template-columns: 1fr 1fr; }
+}
+
+/* -------------------------------------------------------- photo gallery --
+   CSS-only. Swipe on a phone, tap the dots on anything else. Scroll-snap
+   does the work, so there is no JavaScript and nothing rotates on its own. */
+
+.photo-gallery { margin: 0 0 1.5rem; }
+
+.photo-gallery-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--grey);
+  scrollbar-width: none;
+}
+.photo-gallery-track::-webkit-scrollbar { display: none; }
+
+.photo-gallery-track > li {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+  margin: 0;
+}
+.photo-gallery-track img { border: 0; }
+.photo-gallery-track figure { margin: 0; }
+.photo-gallery-track figcaption { padding: 0.6rem 0.875rem 0.75rem; }
+
+.photo-gallery-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.7rem;
+}
+.photo-gallery-nav a {
+  display: block;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--white);
+  border: 1.5px solid var(--navy);
+  text-decoration: none;
+  text-indent: -999em;
+  overflow: hidden;
+  padding: 0;
+}
+.photo-gallery-nav a:hover,
+.photo-gallery-nav a:focus-visible { background: var(--saffron); border-color: var(--saffron); }
+
 /* --------------------------------------------------------- wider views -- */
 
 @media (min-width: 40em) {
@@ -535,6 +597,74 @@ figure figcaption { color: var(--grey); font-size: 0.9375rem; margin-top: 0.5rem
   .site-nav a[aria-current="page"] {
     border-left: 0;
     border-bottom-color: var(--saffron);
+  }
+}
+
+/* -------------------------------------------------------------- motion --
+   Restrained, CSS-only micro-interactions. Everything here is opt-in,
+   inside prefers-reduced-motion: no-preference, so a visitor who has asked
+   for less motion (or a weak device) simply gets the calm, static page:
+   colours still change on hover, nothing moves. */
+
+@media (prefers-reduced-motion: no-preference) {
+
+  .btn {
+    transition: background-color 0.15s ease, transform 0.15s ease;
+  }
+  .btn:hover, .btn:active { transform: translateY(-1px); }
+
+  .card,
+  .card-link {
+    transition: transform 0.18s ease-out, background-color 0.18s ease-out,
+                box-shadow 0.18s ease-out;
+  }
+  .card:hover,
+  .card-link:hover, .card-link:active {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(26, 58, 107, 0.15);
+  }
+
+  /* A drawn underline for links inside the page text. Buttons and whole-card
+     links already have their own hover treatment, so they sit this out. */
+  main a:not(.btn):not(.card-link) {
+    text-decoration: none;
+    padding-bottom: 1px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 0 1.5px;
+    transition: background-size 0.2s ease-out, color 0.15s ease-out;
+  }
+  main a:not(.btn):not(.card-link):hover,
+  main a:not(.btn):not(.card-link):focus-visible {
+    background-size: 100% 1.5px;
+  }
+
+  /* Photographs get the same gentle lift as cards, and their border deepens
+     to saffron. figure-bleed and the gallery slides carry no border of their
+     own, so the colour change is a no-op there and only the lift shows. */
+  figure img {
+    transition: transform 0.18s ease-out, box-shadow 0.18s ease-out,
+                border-color 0.18s ease-out;
+  }
+  figure img:hover,
+  figure img:active {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 14px rgba(26, 58, 107, 0.18);
+    border-color: var(--saffron);
+  }
+
+  /* Section headings settle into place as they enter view. reveal.js adds
+     both classes; without it (or under reduced motion) headings simply show
+     as normal, since .reveal never gets added in that case. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 380ms ease-out, transform 380ms ease-out;
+  }
+  .reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
