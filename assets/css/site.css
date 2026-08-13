@@ -337,6 +337,43 @@ hr {
   line-height: 1.5;
 }
 
+/* ----------------------------------------------------------------- faq --
+   A native details/summary accordion. No JavaScript needed, and it still
+   works if the visitor's browser lacks scripting entirely. */
+
+.faq-list {
+  margin: 0 0 1.5rem;
+  border-top: 1px solid rgba(85, 85, 85, 0.25);
+}
+
+.faq-item { border-bottom: 1px solid rgba(85, 85, 85, 0.25); }
+
+.faq-item summary {
+  cursor: pointer;
+  list-style: none;
+  position: relative;
+  padding: 1rem 2rem 1rem 0;
+  font-family: var(--font-head);
+  font-weight: bold;
+  color: var(--navy);
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "\002B";           /* plus sign */
+  position: absolute;
+  right: 0.15rem;
+  top: 1rem;
+  color: var(--saffron);
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+.faq-item[open] summary::after { content: "\2212"; }   /* minus sign */
+
+.faq-item p {
+  margin: 0 0 1.125rem;
+  padding-right: 1.5rem;
+}
+
 /* --------------------------------------------------------------- specs --
    Label and value rows. Used for course facts and lab equipment. A list
    rather than a table, because a table of this shape does not fit a phone. */
