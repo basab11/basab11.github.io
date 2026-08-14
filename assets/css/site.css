@@ -337,6 +337,38 @@ hr {
   line-height: 1.5;
 }
 
+/* ------------------------------------------------------------ whatsapp --
+   A card variant that pairs the join button with the QR image. Stacks on
+   a phone, sits side by side from tablet width up. */
+
+.whatsapp-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.whatsapp-card-text { min-width: 0; }
+.whatsapp-card-text p:last-child { margin-bottom: 0; }
+
+.whatsapp-card-qr {
+  margin: 0;
+  width: 100%;
+  max-width: 200px;
+}
+.whatsapp-card-qr img { border: 1px solid var(--grey); }
+.whatsapp-card-qr figcaption { text-align: center; }
+
+@media (min-width: 36em) {
+  .whatsapp-card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .whatsapp-card-text { flex: 1 1 auto; }
+  .whatsapp-card-qr { flex: 0 0 auto; }
+}
+
 /* ----------------------------------------------------------------- faq --
    A native details/summary accordion. No JavaScript needed, and it still
    works if the visitor's browser lacks scripting entirely. */
