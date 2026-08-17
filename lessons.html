@@ -1,88 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AI Shakti — Past Lessons</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Past lessons &middot; Bharat Tech-Shakti Mission</title>
+<meta name="description" content="Every AI Shakti lesson so far. One small AI idea a day, sent free to our WhatsApp group in English and Hindi, kept here to read any time.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+<meta property="og:title" content="Past lessons &middot; Bharat Tech-Shakti Mission">
+<meta property="og:description" content="Every AI Shakti lesson so far. One small AI idea a day, sent free to our WhatsApp group in English and Hindi, kept here to read any time.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://bharattechshakti.org/lessons.html">
+<meta property="og:image" content="https://bharattechshakti.org/assets/img/home-collage.jpg">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="1000">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Past lessons &middot; Bharat Tech-Shakti Mission">
+<meta name="twitter:description" content="Every AI Shakti lesson so far. One small AI idea a day, sent free to our WhatsApp group in English and Hindi, kept here to read any time.">
+<meta name="twitter:image" content="https://bharattechshakti.org/assets/img/home-collage.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Bharat Tech-Shakti Mission",
+  "url": "https://bharattechshakti.org/",
+  "email": "mailto:BharatTechShakti@gmail.com",
+  "telephone": "+91-80104-84692",
+  "image": "https://bharattechshakti.org/assets/img/home-collage.jpg",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bharat Sevashram Sangha, Sriniwaspuri",
+    "addressLocality": "New Delhi",
+    "addressCountry": "IN"
+  },
+  "sameAs": [
+    "https://www.facebook.com/bharattechshakti/",
+    "https://www.instagram.com/bharattechshakti/",
+    "https://x.com/bharattecshakti"
+  ]
+}
+</script>
 <style>
-  :root{--navy:#1A3A6B;--saffron:#F47920;--cream:#FAF3E3;--tan:#DFB37E;--ink:#2d3138;--line:#e4dcc9;}
-  *{box-sizing:border-box}
-  body{margin:0;background:var(--cream);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;}
-  a{color:var(--navy)}
-  .top{max-width:820px;margin:0 auto;padding:18px 16px 6px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
-  .brand{font-weight:700;color:var(--navy);font-size:16px;text-decoration:none;}
-  .join{background:var(--saffron);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:9px 16px;border-radius:10px;}
-  .wrap{max-width:820px;margin:0 auto;padding:6px 16px 50px;}
-  h1{color:var(--navy);font-size:26px;margin:14px 0 4px;}
-  .lead{color:#6f6a5c;font-size:14.5px;margin:0 0 18px;line-height:1.5;}
-  .stage{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.05);}
-  .cardimg{display:block;width:100%;height:auto;background:var(--cream);}
-  .body{padding:14px 18px 20px;}
-  .datebar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:6px;}
-  .date{color:var(--saffron);font-weight:700;font-size:14px;text-transform:uppercase;letter-spacing:.5px;}
-  .count{color:#9a9486;font-size:13px;}
-  .title{color:var(--navy);font-weight:700;font-size:20px;margin:2px 0 10px;}
-  .caption{white-space:pre-wrap;font-size:15px;line-height:1.55;}
-  .nav{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:16px;}
-  .nav button{flex:1;background:#fff;border:1.5px solid var(--navy);color:var(--navy);font-weight:700;font-size:15px;padding:13px;border-radius:11px;cursor:pointer;font-family:inherit;}
-  .nav button:disabled{opacity:.35;cursor:default;}
-  .dots{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-top:14px;}
-  .dot{width:10px;height:10px;border-radius:50%;background:#d9cfb9;border:none;cursor:pointer;padding:0;}
-  .dot.on{background:var(--navy);}
-  .empty{background:#fff;border:1px solid var(--line);border-radius:16px;padding:40px 20px;text-align:center;color:#8a8577;}
-  .hint{text-align:center;color:#9a9486;font-size:12.5px;margin-top:14px;}
-  .foot{text-align:center;color:#9a9486;font-size:12px;margin-top:26px;line-height:1.6;}
+/* ------------------------------------------------------- lesson archive --
+   Page-only styles for the one-lesson-at-a-time reader. Everything else on
+   this page comes from site.css. No new colours: the panel is a card, the
+   arrows borrow the button shape, and the dots match .photo-gallery-nav. */
+
+.lesson { padding: 0; overflow: hidden; }
+
+.lesson-img {
+  width: 100%;
+  border-bottom: 1px solid rgba(85, 85, 85, 0.25);
+}
+
+.lesson-body { padding: 1rem 1.125rem 1.25rem; }
+
+.lesson-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+.lesson-date {
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--saffron);
+}
+.lesson-count { color: var(--grey); font-size: 0.875rem; }
+
+.lesson-title { font-size: 1.25rem; margin: 0 0 0.6rem; }
+
+/* Captions arrive as plain text with real line breaks, so honour them. */
+.lesson-caption { white-space: pre-wrap; }
+
+/* Older and newer. Outlined so the saffron .btn stays the page's one
+   call to action, and sized for a thumb. */
+.lesson-nav { display: flex; gap: 0.7rem; margin-top: 1rem; }
+.lesson-nav button {
+  flex: 1;
+  background: var(--white);
+  color: var(--navy);
+  border: 2px solid var(--navy);
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+}
+.lesson-nav button:hover:not(:disabled) { background: var(--navy); color: var(--white); }
+.lesson-nav button:disabled { opacity: 0.3; cursor: default; }
+
+.lesson-dots {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-top: 0.9rem;
+}
+.lesson-dots button {
+  width: 0.65rem;
+  height: 0.65rem;
+  border-radius: 50%;
+  background: var(--white);
+  border: 1.5px solid var(--navy);
+  padding: 0;
+  cursor: pointer;
+}
+.lesson-dots button:hover { background: var(--saffron); border-color: var(--saffron); }
+.lesson-dots button[aria-current="true"] { background: var(--navy); }
+
+.lesson-hint {
+  text-align: center;
+  color: var(--grey);
+  font-size: 0.875rem;
+  margin-top: 0.9rem;
+}
+
+.lesson-empty {
+  background: var(--cream);
+  border-left: 4px solid var(--saffron);
+  padding: 2.5rem 1.125rem;
+  text-align: center;
+  color: var(--grey);
+}
+
+@media (min-width: 40em) {
+  .lesson-title { font-size: 1.375rem; }
+}
 </style>
 </head>
 <body>
-  <div class="top">
-    <a class="brand" href="https://bharattechshakti.org">Bharat Tech-Shakti Mission</a>
-    <a class="join" href="https://chat.whatsapp.com/LlfkZSoZBm9FxmmA8YlOtB" target="_blank" rel="noopener noreferrer">Join the WhatsApp group</a>
-  </div>
-  <div class="wrap">
-    <h1>AI Shakti — Past Lessons</h1>
-    <p class="lead">One new lesson goes out every day at 11am on our WhatsApp group. Missed a few? They are all here. Use the arrows, your keyboard, or swipe.</p>
-    <div id="root"></div>
-    <p class="hint" id="hint"></p>
-    <p class="foot">Free bite-sized AI learning · Swami Pranavananda AI &amp; Robotics Lab, Bharat Sevashram Sangha, Sriniwaspuri, New Delhi · bharattechshakti.org</p>
-  </div>
 
+<a class="skip-link" href="#main">Skip to the main content</a>
+
+<!-- ============================================================ header ==
+     Shared header. Identical on every page. The only thing that changes
+     between pages is which nav link carries aria-current="page".
+     ===================================================================== -->
+<header class="site-header">
+  <div class="masthead">
+    <div class="wrap">
+      <a class="wordmark" href="/">
+        <span class="wordmark-name">Bharat Tech-Shakti Mission</span>
+        <span class="wordmark-tag">
+          <span class="deva" lang="hi">&#2360;&#2371;&#2332;&#2344; &#2360;&#2375; &#2358;&#2325;&#2381;&#2340;&#2367;</span>
+          <span class="sep" aria-hidden="true">&middot;</span>
+          <span class="wordmark-translit">Srijan Se Shakti</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="site-nav-bar">
+    <div class="wrap">
+      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav" hidden>Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/courses/">Courses</a></li>
+          <li><a href="/lab/">Lab</a></li>
+          <li><a href="/learning/">Learning Material</a></li>
+          <li><a href="/lessons.html" aria-current="page">Past lessons</a></li>
+          <li><a href="/activities/">Activities</a></li>
+          <li><a href="/#whatsapp">WhatsApp</a></li>
+          <li><a href="/apply/">Apply</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <h1 class="accent-bar">Bite-Size Prior Learnings</h1>
+
+    <p class="lede">AI Shakti sends one small lesson a day to our WhatsApp
+    group. One idea, in plain words, in English and Hindi, about a minute to
+    read.</p>
+
+    <p>None of it goes stale, and nothing is lost by joining late. Every lesson
+    we have sent is kept here, newest first. Read one, or work back through the
+    whole run from the beginning.</p>
+
+    <div id="root"></div>
+    <p class="lesson-hint" id="hint"></p>
+
+    <h2>Get tomorrow's lesson</h2>
+    <div class="card">
+      <p>The lessons go out on WhatsApp first. Free, all ages, no computer
+      background needed, nothing to buy.</p>
+      <p><a class="btn" href="https://chat.whatsapp.com/LlfkZSoZBm9FxmmA8YlOtB"
+         target="_blank" rel="noopener noreferrer">Join the WhatsApp group</a></p>
+    </div>
+
+  </div>
+</main>
+
+<!-- ============================================================ footer ==
+     Shared footer. Identical on every page.
+     ===================================================================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+
+      <div class="footer-block">
+        <h2>Bharat Tech-Shakti Mission</h2>
+        <p>Swami Pranavananda AI &amp; Robotics Lab</p>
+        <p>Bharat Sevashram Sangha, Sriniwaspuri, New Delhi</p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Reach us</h2>
+        <p><span class="footer-label">Admissions</span> <a href="tel:+918010484692">+91-80104-84692</a></p>
+        <p><span class="footer-label">Courses</span> <a href="tel:+919625677741">+91-96256-77741</a></p>
+        <p><a href="mailto:BharatTechShakti@gmail.com">BharatTechShakti@gmail.com</a></p>
+        <p><a href="https://www.facebook.com/bharattechshakti/">Facebook</a>
+           &middot; <a href="https://www.instagram.com/bharattechshakti/">Instagram</a>
+           &middot; <a href="https://x.com/bharattecshakti">X</a></p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Pages</h2>
+        <p><a href="/courses/">Courses</a> &middot; <a href="/lab/">Lab</a></p>
+        <p><a href="/learning/">Learning Material</a> &middot; <a href="/lessons.html">Past lessons</a></p>
+        <p><a href="/activities/">Activities</a> &middot; <a href="/apply/">Apply</a></p>
+        <p><a href="/faq/">FAQ</a> &middot; <a href="/contact/">Contact</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-legal">
+      <p>A volunteer-run initiative. Srijan Se Shakti, strength comes from making.</p>
+      <p>&copy; 2026 Bharat Tech-Shakti Mission &middot;
+         <a href="/legal/">Disclaimer and copyright</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/nav.js"></script>
+<script src="/assets/js/reveal.js"></script>
+
+<!-- The lesson reader. Reads lessons.json, shows one lesson at a time, and
+     moves on arrows, keyboard or swipe. If the fetch fails the page still
+     stands: the panel says the lessons will appear soon. -->
 <script>
-let lessons=[]; let idx=0;
-const root=document.getElementById('root');
-const hint=document.getElementById('hint');
+let lessons = []; let idx = 0;
+const root = document.getElementById('root');
+const hint = document.getElementById('hint');
 
 function fmt(dstr){
   try{const d=new Date(dstr+"T00:00:00");return d.toLocaleDateString(undefined,{day:'numeric',month:'long',year:'numeric'});}
   catch(e){return dstr;}
 }
-function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));}
+function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+
+/* Captions are written for WhatsApp, where *text between single asterisks*
+   means bold. Turn those into real bold and drop the asterisks, which mean
+   nothing to a reader on the web. Escaping happens first, so the caption can
+   never inject markup of its own. A lone or unclosed asterisk is left alone.
+   New lessons can keep using WhatsApp markers; this handles them. */
+function caption(s){
+  return esc(s).replace(/\*([^*\n]+)\*/g, '<strong>$1</strong>');
+}
 
 function render(){
   if(!lessons.length){
-    root.innerHTML='<div class="empty">Lessons will appear here soon.</div>'; hint.textContent=''; return;
+    root.innerHTML='<div class="lesson-empty">Lessons will appear here soon.</div>'; hint.textContent=''; return;
   }
   if(idx<0)idx=0; if(idx>lessons.length-1)idx=lessons.length-1;
   const it=lessons[idx];
-  const dots=lessons.map((_,i)=>'<button class="dot'+(i===idx?' on':'')+'" data-i="'+i+'" aria-label="lesson '+(i+1)+'"></button>').join('');
+  const dots=lessons.map((_,i)=>'<button data-i="'+i+'"'+(i===idx?' aria-current="true"':'')+' aria-label="Lesson '+(i+1)+'"></button>').join('');
   root.innerHTML=
-    '<div class="stage">'+
-      (it.card?'<img class="cardimg" src="'+esc(it.card)+'" alt="'+esc(it.title)+'"/>':'')+
-      '<div class="body">'+
-        '<div class="datebar"><span class="date">'+fmt(it.date)+'</span><span class="count">'+(idx+1)+' of '+lessons.length+'</span></div>'+
-        '<div class="title">'+esc(it.title)+'</div>'+
-        '<div class="caption">'+esc(it.caption)+'</div>'+
+    '<div class="lesson card">'+
+      (it.card?'<img class="lesson-img" src="'+esc(it.card)+'" alt="'+esc(it.title)+'"/>':'')+
+      '<div class="lesson-body">'+
+        '<div class="lesson-meta"><span class="lesson-date">'+fmt(it.date)+'</span><span class="lesson-count">'+(idx+1)+' of '+lessons.length+'</span></div>'+
+        '<h2 class="lesson-title">'+esc(it.title)+'</h2>'+
+        '<div class="lesson-caption">'+caption(it.caption)+'</div>'+
       '</div>'+
     '</div>'+
-    '<div class="nav">'+
-      '<button id="older"'+(idx===0?' disabled':'')+'>‹ Older</button>'+
-      '<button id="newer"'+(idx===lessons.length-1?' disabled':'')+'>Newer ›</button>'+
+    '<div class="lesson-nav">'+
+      '<button id="older"'+(idx===0?' disabled':'')+'>&lsaquo; Older</button>'+
+      '<button id="newer"'+(idx===lessons.length-1?' disabled':'')+'>Newer &rsaquo;</button>'+
     '</div>'+
-    '<div class="dots">'+dots+'</div>';
+    '<div class="lesson-dots">'+dots+'</div>';
   const o=document.getElementById('older'), n=document.getElementById('newer');
   if(o)o.onclick=()=>{idx--;render();};
   if(n)n.onclick=()=>{idx++;render();};
-  root.querySelectorAll('.dot').forEach(b=>b.onclick=()=>{idx=+b.dataset.i;render();});
+  root.querySelectorAll('.lesson-dots button').forEach(b=>b.onclick=()=>{idx=+b.dataset.i;render();});
   hint.textContent='Left arrow for older, right arrow for newer.';
 }
 
@@ -97,8 +310,8 @@ document.addEventListener('touchend',e=>{
   if(sx===null||!lessons.length)return;
   const dx=e.changedTouches[0].clientX-sx; sx=null;
   if(Math.abs(dx)<45)return;
-  if(dx>0&&idx>0){idx--;render();}          // swipe right -> older
-  else if(dx<0&&idx<lessons.length-1){idx++;render();} // swipe left -> newer
+  if(dx>0&&idx>0){idx--;render();}                      // swipe right -> older
+  else if(dx<0&&idx<lessons.length-1){idx++;render();}  // swipe left  -> newer
 },{passive:true});
 
 fetch('lessons.json',{cache:'no-store'})
