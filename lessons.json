@@ -1,0 +1,26 @@
+[
+  {
+    "id": "BYTE-001",
+    "num": 1,
+    "title": "What is a token",
+    "date": "2026-08-15",
+    "card": "social/cards/card_001_token.png",
+    "caption": "*What is a token?*\nWhen you type a sentence to an AI, it does not read letters or whole words the way you do. It breaks your text into small pieces called tokens. A token is often a word, sometimes part of a word.\nTake \"unbelievable\". The AI may see it as three pieces: un, believ, able.\nThis matters because AI tools count their work in tokens, not words. That is why a long question can cost more or hit a limit, even when it looks short to you.\n\n*Token क्या है?*\nजब आप AI को कोई वाक्य लिखते हैं, तो वह आपकी तरह अक्षर या पूरे शब्द नहीं पढ़ता। वह आपके text को छोटे-छोटे टुकड़ों में बाँटता है, जिन्हें token कहते हैं। एक token अक्सर एक शब्द होता है, कभी-कभी शब्द का एक हिस्सा।\nजैसे \"unbelievable\" को AI तीन टुकड़ों में देख सकता है: un, believ, able।\nयह इसलिए मायने रखता है क्योंकि AI tools अपना काम शब्दों में नहीं, token में गिनते हैं। इसीलिए एक लंबा सवाल कभी-कभी ज़्यादा खर्च करता है या किसी limit तक पहुँच जाता है, भले ही वह आपको छोटा लगे।"
+  },
+  {
+    "id": "BYTE-002",
+    "num": 2,
+    "title": "Why AI miscounts letters",
+    "date": "2026-08-16",
+    "card": "social/cards/card_002_letters.png",
+    "caption": "*Why does AI miscount letters?*\nAsk an AI how many times the letter r appears in \"strawberry\" and it may get it wrong. This surprises people. The machine writes essays but stumbles on counting.\nThe reason goes back to tokens. The AI does not see s-t-r-a-w-b-e-r-r-y as separate letters. It sees a few chunks. So counting single letters is not natural to it, the way counting bricks is hard if you only ever see finished walls.\nLesson: AI is strong at language, weak at small exact tasks. Check those yourself.\n\n*AI अक्षर गिनने में गलती क्यों करता है?*\nकिसी AI से पूछिए कि \"strawberry\" में r कितनी बार आता है, और हो सकता है वह गलत बता दे। लोग हैरान होते हैं। मशीन निबंध लिख देती है, पर गिनती में अटक जाती है।\nवजह फिर वही token है। AI, s-t-r-a-w-b-e-r-r-y को अलग-अलग अक्षरों के रूप में नहीं देखता। वह कुछ टुकड़े देखता है। इसलिए एक-एक अक्षर गिनना उसके लिए स्वाभाविक नहीं है, जैसे बनी हुई दीवार देखकर ईंटें गिनना मुश्किल होता है।\nसीख: AI भाषा में मज़बूत है, छोटे सटीक कामों में कमज़ोर। वे काम खुद जाँचिए।"
+  },
+  {
+    "id": "BYTE-003",
+    "num": 3,
+    "title": "What is training data",
+    "date": "2026-08-17",
+    "card": "social/cards/card_003_training.png",
+    "caption": "*Where does AI get its knowledge?*\nAn AI is not born knowing things. It learns from examples, called training data. Show a child a thousand photos of cats and dogs, and the child starts telling them apart. An AI learns the same way, from huge amounts of text and pictures people have made.\nSo an AI is only as good as what it learned from. If the examples were narrow or wrong, its answers will be too. This is why the same question can get a better answer from a newer, better-trained tool.\n\n*AI को उसकी जानकारी कहाँ से मिलती है?*\nAI जन्म से कुछ नहीं जानता। वह उदाहरणों से सीखता है, जिन्हें training data कहते हैं। किसी बच्चे को बिल्ली और कुत्ते की हज़ार तस्वीरें दिखाइए, वह दोनों में फर्क करना सीख जाता है। AI भी इसी तरह सीखता है, लोगों के बनाए हुए ढेर सारे text और तस्वीरों से।\nइसलिए AI उतना ही अच्छा है जितना उसने सीखा है। अगर उदाहरण सीमित या गलत थे, तो उसके जवाब भी वैसे ही होंगे। यही वजह है कि वही सवाल किसी नए, बेहतर tool से बेहतर जवाब पा सकता है।"
+  }
+]
