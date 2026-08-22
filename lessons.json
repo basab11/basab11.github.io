@@ -22,5 +22,45 @@
     "date": "2026-08-17",
     "card": "social/cards/card_003_training.png",
     "caption": "*Where does AI get its knowledge?*\nAn AI is not born knowing things. It learns from examples, called training data. Show a child a thousand photos of cats and dogs, and the child starts telling them apart. An AI learns the same way, from huge amounts of text and pictures people have made.\nSo an AI is only as good as what it learned from. If the examples were narrow or wrong, its answers will be too. This is why the same question can get a better answer from a newer, better-trained tool.\n\n*AI को उसकी जानकारी कहाँ से मिलती है?*\nAI जन्म से कुछ नहीं जानता। वह उदाहरणों से सीखता है, जिन्हें training data कहते हैं। किसी बच्चे को बिल्ली और कुत्ते की हज़ार तस्वीरें दिखाइए, वह दोनों में फर्क करना सीख जाता है। AI भी इसी तरह सीखता है, लोगों के बनाए हुए ढेर सारे text और तस्वीरों से।\nइसलिए AI उतना ही अच्छा है जितना उसने सीखा है। अगर उदाहरण सीमित या गलत थे, तो उसके जवाब भी वैसे ही होंगे। यही वजह है कि वही सवाल किसी नए, बेहतर tool से बेहतर जवाब पा सकता है।"
+  },
+  {
+    "id": "BYTE-004",
+    "num": 4,
+    "title": "What is a model",
+    "date": "2026-08-18",
+    "card": "social/cards/card_004_model.png",
+    "caption": "*What is a \"model\"?*\nYou will hear the word model often. It sounds technical, but the idea is plain. A model is the trained result, the thing that learned the patterns and can now answer.\nThink of a cook who practised a dish a thousand times. The cook is the model. The practice was the training. Now you give an order and the cook produces the dish.\nWhen a company releases a \"new model\", it means a fresh cook who practised on more and better examples.\n\n*\"Model\" क्या है?*\nआप model शब्द अक्सर सुनेंगे। यह तकनीकी लगता है, पर बात सीधी है। model वह सीखा-सिखाया नतीजा है, वह चीज़ जिसने pattern सीख लिए और अब जवाब दे सकती है।\nएक रसोइये की तरह सोचिए जिसने कोई व्यंजन हज़ार बार बनाया। रसोइया model है। अभ्यास training था। अब आप order देते हैं और रसोइया व्यंजन बना देता है।\nजब कोई कंपनी \"नया model\" निकालती है, तो मतलब है एक नया रसोइया जिसने और ज़्यादा, और बेहतर उदाहरणों पर अभ्यास किया।"
+  },
+  {
+    "id": "BYTE-005",
+    "num": 5,
+    "title": "What is a prompt",
+    "date": "2026-08-19",
+    "card": "social/cards/card_005_prompt.png",
+    "caption": "*What is a prompt?*\nA prompt is simply what you type to the AI. Your question, your instruction, your request. That is all the word means.\nThe catch is that the AI only knows what you tell it. It cannot see your situation. \"Write a letter\" gives a vague letter. \"Write a short leave letter to my school principal for two days, in simple Hindi\" gives you something you can almost use.\nA better prompt is not a trick. It is just telling the machine clearly what you want.\n\n*Prompt क्या है?*\nPrompt बस वही है जो आप AI को लिखते हैं। आपका सवाल, आपका निर्देश, आपकी माँग। शब्द का इतना ही मतलब है।\nपेच यह है कि AI सिर्फ उतना जानता है जितना आप बताते हैं। वह आपकी स्थिति नहीं देख सकता। \"एक पत्र लिखो\" से धुँधला सा पत्र मिलता है। \"मेरे स्कूल के principal को दो दिन की छुट्टी के लिए छोटा सा पत्र, सरल हिंदी में लिखो\" से ऐसा कुछ मिलता है जिसे आप लगभग इस्तेमाल कर सकें।\nअच्छा prompt कोई चाल नहीं है। वह बस मशीन को साफ-साफ बताना है कि आप क्या चाहते हैं।"
+  },
+  {
+    "id": "BYTE-006",
+    "num": 6,
+    "title": "Why AI makes things up",
+    "date": "2026-08-20",
+    "card": "social/cards/card_006_hallucination.png",
+    "caption": "*Why does AI sometimes make things up?*\nAn AI can give you a wrong answer with full confidence. A fake book title, a wrong date, a law that does not exist. This is called a hallucination.\nIt happens because the AI is built to produce likely-sounding words, not to check facts.\nThe danger is the confident tone. It sounds equally sure whether it is right or wrong. So for anything that matters, a name, a number, a rule, check it against a real source.\n\n*AI कभी-कभी चीज़ें क्यों गढ़ लेता है?*\nAI पूरे आत्मविश्वास के साथ गलत जवाब दे सकता है। कोई झूठा किताब का नाम, गलत तारीख, कोई कानून जो है ही नहीं। इसे hallucination कहते हैं।\nयह इसलिए होता है क्योंकि AI संभावित लगने वाले शब्द बनाने के लिए बना है, तथ्य जाँचने के लिए नहीं।\nखतरा उसके आत्मविश्वास भरे लहजे में है। वह सही हो या गलत, बराबर यकीन से बोलता है। इसलिए किसी भी ज़रूरी बात के लिए, कोई नाम, कोई संख्या, कोई नियम, उसे किसी असली स्रोत से जाँचिए।"
+  },
+  {
+    "id": "BYTE-007",
+    "num": 7,
+    "title": "AI predicts, does not understand",
+    "date": "2026-08-21",
+    "card": "social/cards/card_007_predicts.png",
+    "caption": "*Does AI actually understand you?*\nIt can feel like the AI understands. It answers, it jokes, it explains. But under the surface it is doing one thing: guessing the next likely word, again and again, very fast.\nIt has no memory of you, no opinion, no feeling. It is a very powerful pattern machine, not a mind.\nWhy care? Because it stops you from trusting it too much. A tool that predicts words will sometimes predict wrong ones. You stay the judge.\n\n*क्या AI सचमुच आपको समझता है?*\nऐसा लग सकता है कि AI समझता है। वह जवाब देता है, मज़ाक करता है, समझाता है। पर अंदर वह एक ही काम कर रहा है: अगला संभावित शब्द अंदाज़ना, बार-बार, बहुत तेज़ी से।\nउसके पास आपकी कोई याद नहीं, कोई राय नहीं, कोई भावना नहीं। वह एक बहुत ताकतवर pattern मशीन है, दिमाग नहीं।\nइसकी परवाह क्यों? क्योंकि यह आपको उस पर हद से ज़्यादा भरोसा करने से रोकता है। शब्द अंदाज़ने वाला tool कभी-कभी गलत भी अंदाज़ेगा। फैसला आपके हाथ रहता है।"
+  },
+  {
+    "id": "BYTE-008",
+    "num": 8,
+    "title": "AI is a helper, you are the boss",
+    "date": "2026-08-22",
+    "card": "social/cards/card_008_boss.png",
+    "caption": "*AI is the helper. You are the boss.*\nIt is easy to slip into doing whatever the AI suggests. Turn that around. You bring the goal and the judgement. The AI brings speed and options.\nIf an answer feels wrong, push back. Say \"that is not right, try again\" or \"make it simpler\". You can argue with it. It will not mind.\nThe people who get the most from AI are not the ones who trust it most. They are the ones who direct it best.\n\n*AI मददगार है। मालिक आप हैं।*\nAI जो सुझाए वही करने लगना आसान है। इसे पलट दीजिए। लक्ष्य और समझ आप लाते हैं। तेज़ी और विकल्प AI लाता है।\nअगर कोई जवाब गलत लगे, तो टोकिए। कहिए \"यह सही नहीं है, फिर से करो\" या \"इसे और सरल बनाओ\"। आप उससे बहस कर सकते हैं। उसे बुरा नहीं लगेगा।\nजो लोग AI से सबसे ज़्यादा पाते हैं, वे वो नहीं जो उस पर सबसे ज़्यादा भरोसा करते हैं। वे वो हैं जो उसे सबसे अच्छे से चलाते हैं।"
   }
 ]

@@ -115,6 +115,16 @@
 .lesson-dots button:hover { background: var(--saffron); border-color: var(--saffron); }
 .lesson-dots button[aria-current="true"] { background: var(--navy); }
 
+.lessons-updated {
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 0.8125rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--grey);
+  margin: 0 0 1rem;
+}
+
 .lesson-hint {
   text-align: center;
   color: var(--grey);
@@ -190,6 +200,8 @@
     we have sent is kept here, newest first. Read one, or work back through the
     whole run from the beginning.</p>
 
+    <p class="lessons-updated" id="updated"></p>
+
     <div id="root"></div>
     <p class="lesson-hint" id="hint"></p>
 
@@ -260,6 +272,24 @@ function fmt(dstr){
   try{const d=new Date(dstr+"T00:00:00");return d.toLocaleDateString(undefined,{day:'numeric',month:'long',year:'numeric'});}
   catch(e){return dstr;}
 }
+/* The newest date in the data, as 05 MAR 2027. Read straight off the
+   yyyy-mm-dd string so no timezone can shift the day. Derived from
+   lessons.json every load, so a new lesson updates this line on its own
+   and nobody has to edit this page again. */
+function fmtUp(dstr){
+  const M=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(dstr||'');
+  if(!m||+m[2]<1||+m[2]>12)return '';
+  return m[3]+' '+M[+m[2]-1]+' '+m[1];
+}
+function showUpdated(){
+  const el=document.getElementById('updated');
+  if(!el)return;
+  const latest=lessons.reduce((a,b)=>(b&&b.date>a?b.date:a),'');
+  const t=fmtUp(latest);
+  el.textContent = t ? 'Lessons shared on AI Shakti WhatsApp Group updated up to '+t : '';
+}
+
 function esc(s){return (s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
 
 /* Captions are written for WhatsApp, where *text between single asterisks*
@@ -316,8 +346,8 @@ document.addEventListener('touchend',e=>{
 
 fetch('lessons.json',{cache:'no-store'})
   .then(r=>r.json())
-  .then(d=>{lessons=Array.isArray(d)?d:[]; lessons.sort((a,b)=> a.date<b.date?-1:(a.date>b.date?1:(a.num||0)-(b.num||0))); idx=lessons.length-1; render();})
-  .catch(()=>{lessons=[]; render();});
+  .then(d=>{lessons=Array.isArray(d)?d:[]; lessons.sort((a,b)=> a.date<b.date?-1:(a.date>b.date?1:(a.num||0)-(b.num||0))); idx=lessons.length-1; render(); showUpdated();})
+  .catch(()=>{lessons=[]; render(); showUpdated();});
 </script>
 </body>
 </html>
