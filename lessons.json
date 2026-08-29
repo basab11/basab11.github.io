@@ -62,5 +62,69 @@
     "date": "2026-08-22",
     "card": "social/cards/card_008_boss.png",
     "caption": "*AI is the helper. You are the boss.*\nIt is easy to slip into doing whatever the AI suggests. Turn that around. You bring the goal and the judgement. The AI brings speed and options.\nIf an answer feels wrong, push back. Say \"that is not right, try again\" or \"make it simpler\". You can argue with it. It will not mind.\nThe people who get the most from AI are not the ones who trust it most. They are the ones who direct it best.\n\n*AI मददगार है। मालिक आप हैं।*\nAI जो सुझाए वही करने लगना आसान है। इसे पलट दीजिए। लक्ष्य और समझ आप लाते हैं। तेज़ी और विकल्प AI लाता है।\nअगर कोई जवाब गलत लगे, तो टोकिए। कहिए \"यह सही नहीं है, फिर से करो\" या \"इसे और सरल बनाओ\"। आप उससे बहस कर सकते हैं। उसे बुरा नहीं लगेगा।\nजो लोग AI से सबसे ज़्यादा पाते हैं, वे वो नहीं जो उस पर सबसे ज़्यादा भरोसा करते हैं। वे वो हैं जो उसे सबसे अच्छे से चलाते हैं।"
+  },
+  {
+    "id": "BYTE-009",
+    "num": 9,
+    "title": "Be specific",
+    "date": "2026-08-23",
+    "card": "social/cards/card_009_specific.png",
+    "caption": "*The first rule of asking AI: be specific.*\nVague in, vague out. \"Give me a diet plan\" gets you a generic list. \"Give me a one-week vegetarian diet for a 45-year-old with high blood pressure, using cheap local vegetables\" gets you something real.\nAdd who it is for, what you want, how long, and any limits. Each detail you add narrows the answer toward your actual need.\nYou are not writing code. You are describing your situation, plainly, the way you would to a helpful stranger.\n\n*AI से पूछने का पहला नियम: साफ और सटीक बोलिए।*\nधुँधला पूछेंगे, धुँधला मिलेगा। \"एक diet plan दो\" से आम सी सूची मिलती है। \"45 साल के, हाई ब्लड प्रेशर वाले व्यक्ति के लिए एक हफ्ते का शाकाहारी diet, सस्ती स्थानीय सब्ज़ियों से\" पूछें, तो कुछ असली मिलता है।\nबताइए किसके लिए है, क्या चाहिए, कितना लंबा, और कोई सीमा हो तो वह भी। हर जानकारी जवाब को आपकी असली ज़रूरत की ओर ले जाती है।\nआप code नहीं लिख रहे। आप बस अपनी बात साफ-साफ बता रहे हैं, जैसे किसी मददगार अजनबी को बताते।"
+  },
+  {
+    "id": "BYTE-010",
+    "num": 10,
+    "title": "Give an example",
+    "date": "2026-08-24",
+    "card": "social/cards/card_010_example.png",
+    "caption": "*Show the AI what you mean.*\nIf you want a certain style, give one example of it. This works better than describing it.\nSay you want product messages for your shop. Instead of explaining the tone, paste one message you already like and say \"write three more like this\". The AI copies the pattern.\nOne good example teaches the machine faster than a paragraph of instructions. Show, then ask.\n\n*AI को दिखाइए कि आपका मतलब क्या है।*\nअगर आपको कोई खास शैली चाहिए, तो उसका एक उदाहरण दे दीजिए। यह समझाने से बेहतर काम करता है।\nमान लीजिए आपको अपनी दुकान के लिए product संदेश चाहिए। शैली समझाने के बजाय, एक संदेश जो आपको पहले से पसंद है वह paste कीजिए और कहिए \"ऐसे ही तीन और लिखो\"। AI उस pattern की नकल कर लेता है।\nएक अच्छा उदाहरण मशीन को निर्देशों के पूरे पैराग्राफ से जल्दी सिखा देता है। पहले दिखाइए, फिर माँगिए।"
+  },
+  {
+    "id": "BYTE-011",
+    "num": 11,
+    "title": "Give a role and a reader",
+    "date": "2026-08-25",
+    "card": "social/cards/card_011_role.png",
+    "caption": "*Tell the AI who it is, and who it is for.*\nTwo short additions change the answer a lot. Give the AI a role, and name the reader.\n\"Explain interest rates\" gives a textbook paragraph. \"You are a bank clerk. Explain interest rates to a farmer who never went to college, in simple Hindi\" gives something a farmer can actually use.\nSame question, very different answer. You steer the tone by naming the speaker and the listener.\n\n*AI को बताइए कि वह कौन है, और किसके लिए है।*\nदो छोटी बातें जोड़ने से जवाब बहुत बदल जाता है। AI को एक भूमिका दीजिए, और पढ़ने वाले का नाम बताइए।\n\"ब्याज दर समझाओ\" से किताबी पैराग्राफ मिलता है। \"तुम एक बैंक क्लर्क हो। ब्याज दर एक ऐसे किसान को समझाओ जो कभी college नहीं गया, सरल हिंदी में\" से ऐसा कुछ मिलता है जिसे किसान सचमुच इस्तेमाल कर सके।\nवही सवाल, बहुत अलग जवाब। बोलने वाले और सुनने वाले का नाम बताकर आप लहजा तय करते हैं।"
+  },
+  {
+    "id": "BYTE-012",
+    "num": 12,
+    "title": "Always check the answer",
+    "date": "2026-08-26",
+    "card": "social/cards/card_012_check.png",
+    "caption": "*Never post an AI answer without reading it first.*\nAI is fast, and that speed tempts people to copy and send without checking. That is where mistakes reach other people.\nIt may get a fact wrong, use the wrong name, or say something that does not fit your case. The tool does not know when it is wrong.\nTreat every answer as a first draft from a quick but careless helper. Read it, fix it, then it is yours.\n\n*AI का जवाब बिना पढ़े कभी आगे मत भेजिए।*\nAI तेज़ है, और यही तेज़ी लोगों को बिना जाँचे copy करके भेजने के लिए ललचाती है। गलती वहीं दूसरों तक पहुँचती है।\nवह कोई तथ्य गलत कर सकता है, गलत नाम इस्तेमाल कर सकता है, या ऐसा कुछ कह सकता है जो आपके मामले पर फिट न बैठे। tool को नहीं पता होता कि वह कब गलत है।\nहर जवाब को एक तेज़ पर लापरवाह मददगार का पहला मसौदा समझिए। पढ़िए, ठीक कीजिए, तब वह आपका हुआ।"
+  },
+  {
+    "id": "BYTE-013",
+    "num": 13,
+    "title": "Write a job application",
+    "date": "2026-08-27",
+    "card": "social/cards/card_013_jobapp.png",
+    "caption": "*Your phone can write a job application with you.*\nOpen a free AI assistant. Tell it your name, the job, and a few real facts about you. Say \"write a simple job application for this\". In seconds you have a draft.\nThen fix it. Add the true details, cut anything that is not you, correct the Hindi or English. The AI gives the shape, you give the truth.\nFor someone who finds the blank page hard, this is the difference between applying and not applying.\n\n*आपका फोन आपके साथ मिलकर नौकरी का आवेदन लिख सकता है।*\nकोई free AI assistant खोलिए। उसे अपना नाम, नौकरी, और अपने बारे में कुछ सच्ची बातें बताइए। कहिए \"इसके लिए एक सरल नौकरी का आवेदन लिखो\"। कुछ ही पल में एक मसौदा तैयार है।\nफिर उसे ठीक कीजिए। सच्चे ब्यौरे जोड़िए, जो आप नहीं हैं वह हटाइए, हिंदी या अंग्रेज़ी सुधारिए। AI ढाँचा देता है, सच्चाई आप देते हैं।\nजिसे खाली कागज़ मुश्किल लगता है, उसके लिए यही आवेदन करने और न करने का फर्क है।"
+  },
+  {
+    "id": "BYTE-014",
+    "num": 14,
+    "title": "Translate a letter into Hindi",
+    "date": "2026-08-28",
+    "card": "social/cards/card_014_translate.png",
+    "caption": "*Turn an English letter into Hindi in ten seconds.*\nA school notice, a bank message, a government form comes in English and a family member cannot read it. Photograph it. Open a free AI assistant. Ask it to explain the letter in simple Hindi.\nIt reads the image and tells you what the letter says and what you must do.\nThis one use alone has helped many people stop depending on others to read their own post.\n\n*अंग्रेज़ी के पत्र को दस सेकंड में हिंदी में बदलिए।*\nस्कूल की सूचना, बैंक का संदेश, कोई सरकारी form अंग्रेज़ी में आता है और घर का कोई सदस्य उसे पढ़ नहीं पाता। उसकी फोटो लीजिए। कोई free AI assistant खोलिए। कहिए कि पत्र को सरल हिंदी में समझाओ।\nवह तस्वीर पढ़कर बता देता है कि पत्र में क्या लिखा है और आपको क्या करना है।\nसिर्फ इसी एक काम ने कई लोगों को अपनी ही डाक पढ़ने के लिए दूसरों पर निर्भर रहने से बचाया है।"
+  },
+  {
+    "id": "BYTE-015",
+    "num": 15,
+    "title": "Explain a textbook simply",
+    "date": "2026-08-28",
+    "card": "social/cards/card_015_textbook.png",
+    "caption": "*Stuck on your child's textbook? Ask the AI to explain it.*\nA parent who never studied a subject can still help with it now. Photograph the page. Ask a free AI assistant to explain it in simple Hindi, as if to a ten-year-old.\nIt breaks the hard part into plain steps. Ask it for one more example if the first is not clear.\nYou are not cheating the child. You are giving them a patient explainer at home, any hour.\n\n*बच्चे की किताब पर अटक गए? AI से समझाने को कहिए।*\nजिस विषय को माता-पिता ने कभी नहीं पढ़ा, उसमें भी वे अब मदद कर सकते हैं। पन्ने की फोटो लीजिए। किसी free AI assistant से कहिए कि इसे सरल हिंदी में समझाओ, जैसे किसी दस साल के बच्चे को।\nवह कठिन हिस्से को आसान चरणों में बाँट देता है। अगर पहला उदाहरण साफ न हो, तो एक और माँग लीजिए।\nआप बच्चे के साथ बेईमानी नहीं कर रहे। आप उसे घर पर, किसी भी समय, एक धैर्यवान समझाने वाला दे रहे हैं।"
+  },
+  {
+    "id": "BYTE-016",
+    "num": 16,
+    "title": "Summarize something long",
+    "date": "2026-08-29",
+    "card": "social/cards/card_016_summarize.png",
+    "caption": "*Make a long document short.*\nA ten-page circular, a long WhatsApp forward, a scheme document. You do not have time to read all of it. Paste it into a free AI assistant, or share the photo, and ask \"summarise this in five simple points\".\nYou get the gist in seconds. If a point matters, ask it to explain that one in detail.\nReading less does not mean knowing less, when the machine reads the rest for you.\n\n*लंबे दस्तावेज़ को छोटा कीजिए।*\nदस पन्नों का circular, लंबा WhatsApp forward, कोई योजना का दस्तावेज़। पूरा पढ़ने का समय नहीं है। उसे किसी free AI assistant में paste कीजिए, या फोटो share कीजिए, और कहिए \"इसे पाँच सरल बिंदुओं में समझाओ\"।\nकुछ ही पल में सार मिल जाता है। अगर कोई बिंदु ज़रूरी लगे, तो उसी को विस्तार से समझाने को कहिए।\nकम पढ़ने का मतलब कम जानना नहीं, जब बाकी मशीन आपके लिए पढ़ रही हो।"
   }
 ]
