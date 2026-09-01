@@ -1,0 +1,254 @@
+/* ==========================================================================
+   Kindly Verify — shared stylesheet for the blog section
+   One file. Every post links to it. Change it once, every post changes.
+
+   Palette and fonts are inherited from /assets/css/site.css. The five custom
+   properties below are aliases onto the site's own six colours, so the blog
+   can never drift away from the printed-book palette.
+   ========================================================================== */
+
+:root {
+  --ink:        #000000;  /* body text            — site --black   */
+  --ink-soft:   #555555;  /* dates, credits, meta — site --grey    */
+  --paper:      #FFFFFF;  /* page background      — site --white   */
+  --accent:     #1A3A6B;  /* headings, rules      — site --navy    */
+  --hairline:   #D8D2C4;  /* dividers             — cream, darkened */
+  --flag:       #F47920;  /* nameplate rule       — site --saffron */
+  --shade:      #FAF3E3;  /* nameplate ground     — site --cream   */
+
+  --measure:    46rem;    /* ~90 characters. Title, rule and text share this
+                             width, so the block aligns on both edges. */
+}
+
+/* --- page shell ---------------------------------------------------------- */
+/* Matches the site's own .wrap so the blog sits on the same 62rem grid as
+   every other page, instead of floating in a column of its own width. */
+
+.kv {
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.kv__wrap {
+  width: 100%;
+  max-width: 62rem;
+  margin-inline: auto;
+  padding: 2.5rem 1.125rem 4rem;
+}
+
+/* --- nameplate ----------------------------------------------------------- */
+/* The section is called Kindly Verify. That is a name, not an instruction,
+   so it is set as a nameplate: an eyebrow that repeats the word the visitor
+   clicked in the nav, the name itself, then a line saying what it is. A
+   first-time reader should never have to guess. */
+
+.kv__nameplate {
+  background: var(--shade);
+  border-top: 5px solid var(--flag);
+  padding: 1.6rem 1.5rem 1.75rem;
+  max-width: var(--measure);
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.kv__eyebrow {
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--flag);
+  margin: 0 0 0.5rem;
+}
+
+.kv__masthead {
+  font-family: var(--font-head);
+  color: var(--accent);
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: bold;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.6rem;
+}
+
+.kv__strapline {
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.kv__lede {
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: var(--measure);
+  margin: 0 auto 2.5rem;
+}
+
+/* --- a single post ------------------------------------------------------- */
+/* One column. The title, the saffron rule beneath the byline, the body text
+   and the illustration all share --measure, so every edge lines up. */
+
+.kv__article {
+  max-width: var(--measure);
+  margin-inline: auto;
+}
+
+.kv__kicker {
+  font-family: var(--font-head);
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin: 0 0 0.9rem;
+}
+
+.kv__kicker a {
+  color: var(--flag);
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid var(--flag);
+  padding-bottom: 2px;
+}
+.kv__kicker a:hover, .kv__kicker a:focus { color: var(--accent); border-color: var(--accent); }
+
+.kv__title {
+  font-family: var(--font-head);
+  color: var(--accent);
+  font-size: clamp(2rem, 5.4vw, 3rem);
+  line-height: 1.08;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+  margin: 0 0 0.4rem;
+}
+
+.kv__byline {
+  font-family: var(--font-head);
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 0 0 2rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 5px solid var(--flag);
+}
+
+.kv__byline::before {
+  content: "~";
+  margin-right: 0.15em;
+}
+
+/* --- body ---------------------------------------------------------------- */
+
+/* Body paragraphs only. A bare `.kv p` here would outrank every .kv__*
+   class below it and silently reset their margins. */
+.kv p:not([class]) { margin: 0 0 1.35em; }
+.kv h2 { margin: 2.75rem 0 1rem; }
+
+.kv .kv__title,
+.kv h2 { font-family: var(--font-head); color: var(--accent); }
+
+.kv h2 {
+  font-size: 1.35rem;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+/* First paragraph after the title carries a little more weight, the way a
+   standfirst does in print. */
+.kv__article > .kv__byline + p { font-size: 1.2rem; line-height: 1.6; }
+
+.kv a { color: var(--accent); text-underline-offset: 0.18em; }
+
+.kv blockquote {
+  margin: 2rem 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--flag);
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* --- illustration -------------------------------------------------------- */
+
+.kv__figure { margin: 2.75rem 0; }
+
+.kv__figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--hairline);
+}
+
+.kv__figure figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+}
+
+/* --- the standard credit block ------------------------------------------- */
+/* Same on every post, by anyone. This is the section's signature. */
+
+.kv__credit {
+  margin: 3rem 0 0;
+  padding-top: 1.25rem;
+  border-top: 3px solid var(--flag);
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.kv__credit a { color: inherit; }
+
+.kv__sources {
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* --- index of posts ------------------------------------------------------ */
+
+.kv__list {
+  list-style: none;
+  margin-inline: auto;
+  padding: 0;
+  max-width: var(--measure);
+}
+
+.kv__item {
+  padding: 1.75rem 0;
+  border-top: 1px solid var(--hairline);
+}
+
+.kv__item:last-child { border-bottom: 1px solid var(--hairline); }
+
+.kv__item h2 {
+  font-size: 1.5rem;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+}
+
+.kv__item h2 a { color: var(--accent); text-decoration: none; }
+.kv__item h2 a:hover,
+.kv__item h2 a:focus { color: var(--flag); text-decoration: underline; }
+
+.kv__meta {
+  font-family: var(--font-head);
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+}
+
+.kv__standfirst { margin: 0; }
+
+/* --- quality floor ------------------------------------------------------- */
+
+.kv :focus-visible {
+  outline: 2px solid var(--flag);
+  outline-offset: 3px;
+}
