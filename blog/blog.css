@@ -16,6 +16,8 @@
   --flag:       #F47920;  /* nameplate rule       — site --saffron */
   --shade:      #FAF3E3;  /* nameplate ground     — site --cream   */
 
+  --font-script: "Kalam", "Segoe Script", cursive;
+
   --measure:    46rem;    /* ~90 characters. Title, rule and text share this
                              width, so the block aligns on both edges. */
 }
@@ -38,6 +40,11 @@
   margin-inline: auto;
   padding: 2.5rem 1.125rem 4rem;
 }
+
+/* Base link colour. Declared here, above the components, because the
+   component rules below match at the same specificity and would otherwise
+   lose to this one on source order alone. */
+.kv a { color: var(--accent); text-underline-offset: 0.18em; }
 
 /* --- nameplate ----------------------------------------------------------- */
 /* The section is called Kindly Verify. That is a name, not an instruction,
@@ -64,14 +71,55 @@
   margin: 0 0 0.5rem;
 }
 
+/* The name is set in Kalam, a pen-written face from the Indian Type Foundry,
+   beside a small emblem: a ruled document under a lens, with a tick. The
+   emblem is decorative and marked aria-hidden, so the h1 still reads simply
+   as "Kindly Verify" to a screen reader. */
+
 .kv__masthead {
-  font-family: var(--font-head);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+  font-family: var(--font-script);
   color: var(--accent);
-  font-size: clamp(2rem, 6vw, 3rem);
-  font-weight: bold;
-  line-height: 1.05;
-  letter-spacing: -0.015em;
+  font-size: clamp(2.3rem, 7vw, 3.6rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0;
   margin: 0 0 0.6rem;
+}
+
+/* Kalam sits high in its box; a hair of optical nudge re-centres the word
+   against the emblem. */
+.kv__masthead-word { display: block; padding-top: 0.12em; }
+
+.kv__mark {
+  flex: none;
+  width: 1.15em;
+  height: 1.15em;
+  overflow: visible;
+}
+
+.kv__mark-page,
+.kv__mark-lens { fill: var(--paper); }
+
+.kv__mark-page,
+.kv__mark-rule,
+.kv__mark-tick { stroke: var(--accent); }
+
+.kv__mark-lens,
+.kv__mark-grip { stroke: var(--flag); }
+
+.kv__mark-page  { stroke-width: 2.6; }
+.kv__mark-rule  { stroke-width: 2.2; stroke-linecap: round; fill: none; }
+.kv__mark-lens  { stroke-width: 3; }
+.kv__mark-tick  { stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+.kv__mark-grip  { stroke-width: 3.4; stroke-linecap: round; fill: none; }
+
+/* On a narrow phone the pair stacks so neither has to shrink. */
+@media (max-width: 24rem) {
+  .kv__masthead { flex-direction: column; gap: 0.35rem; }
 }
 
 .kv__strapline {
@@ -98,15 +146,15 @@
 }
 
 .kv__kicker {
-  font-family: var(--font-head);
-  font-size: 0.72rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin: 0 0 0.9rem;
+  font-family: var(--font-script);
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin: 0 0 0.7rem;
 }
 
 .kv__kicker a {
-  color: var(--flag);
+  color: var(--accent);
   font-weight: bold;
   text-decoration: none;
   border-bottom: 2px solid var(--flag);
@@ -158,8 +206,6 @@
 /* First paragraph after the title carries a little more weight, the way a
    standfirst does in print. */
 .kv__article > .kv__byline + p { font-size: 1.2rem; line-height: 1.6; }
-
-.kv a { color: var(--accent); text-underline-offset: 0.18em; }
 
 .kv blockquote {
   margin: 2rem 0;
