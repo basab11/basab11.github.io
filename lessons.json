@@ -126,5 +126,69 @@
     "date": "2026-08-29",
     "card": "social/cards/card_016_summarize.png",
     "caption": "*Make a long document short.*\nA ten-page circular, a long WhatsApp forward, a scheme document. You do not have time to read all of it. Paste it into a free AI assistant, or share the photo, and ask \"summarise this in five simple points\".\nYou get the gist in seconds. If a point matters, ask it to explain that one in detail.\nReading less does not mean knowing less, when the machine reads the rest for you.\n\n*लंबे दस्तावेज़ को छोटा कीजिए।*\nदस पन्नों का circular, लंबा WhatsApp forward, कोई योजना का दस्तावेज़। पूरा पढ़ने का समय नहीं है। उसे किसी free AI assistant में paste कीजिए, या फोटो share कीजिए, और कहिए \"इसे पाँच सरल बिंदुओं में समझाओ\"।\nकुछ ही पल में सार मिल जाता है। अगर कोई बिंदु ज़रूरी लगे, तो उसी को विस्तार से समझाने को कहिए।\nकम पढ़ने का मतलब कम जानना नहीं, जब बाकी मशीन आपके लिए पढ़ रही हो।"
+  },
+  {
+    "id": "BYTE-017",
+    "num": 17,
+    "title": "Draft a complaint or request",
+    "date": "2026-08-31",
+    "card": "social/cards/card_017_complaint.png",
+    "caption": "*Need to write a complaint but words fail you?*\nA complaint to the electricity office, a request to a landlord, a message to an officer. Tell a free AI assistant what happened and what you want. Say \"write a polite firm complaint about this\".\nIt gives you clear, calm wording, the kind that gets read and answered. You add the true dates and names.\nMany people stay silent because writing feels hard. This removes that wall.\n\n*शिकायत लिखनी है पर शब्द नहीं मिल रहे?*\nबिजली दफ्तर को शिकायत, मकान मालिक से अनुरोध, किसी अधिकारी को संदेश। किसी free AI assistant को बताइए कि क्या हुआ और आप क्या चाहते हैं। कहिए \"इस बारे में एक विनम्र पर दृढ़ शिकायत लिखो\"।\nवह साफ, शांत शब्द देता है, ऐसे जो पढ़े और सुने जाते हैं। सच्ची तारीखें और नाम आप जोड़िए।\nकई लोग सिर्फ इसलिए चुप रह जाते हैं क्योंकि लिखना मुश्किल लगता है। यह वह दीवार हटा देता है।"
+  },
+  {
+    "id": "BYTE-018",
+    "num": 18,
+    "title": "How a machine sees",
+    "date": "2026-08-31",
+    "card": "social/cards/card_018_vision.png",
+    "caption": "*How does a machine \"see\"?*\nA camera gives a machine a grid of coloured dots. It has no eyes and no idea what a face is. So how does a phone unlock at your face, or sort photos of your dog?\nIt was shown many labelled pictures until it learned the patterns that usually mean \"face\" or \"dog\". This is computer vision: finding patterns in images, not truly seeing them.\nIt works well, and it also fails in odd ways, because it matches patterns without understanding.\n\n*मशीन \"देखती\" कैसे है?*\nकैमरा मशीन को रंगीन बिंदुओं की एक जाली देता है। उसकी न आँखें हैं, न यह पता कि चेहरा क्या होता है। फिर फोन आपके चेहरे पर कैसे खुलता है, या आपके कुत्ते की तस्वीरें कैसे छाँटता है?\nउसे कई लेबल लगी तस्वीरें दिखाई गईं जब तक उसने वे pattern सीख न लिए जो आमतौर पर \"चेहरा\" या \"कुत्ता\" बताते हैं। यही computer vision है: तस्वीरों में pattern ढूँढना, उन्हें सचमुच देखना नहीं।\nयह अच्छा काम करता है, और अजीब तरीकों से गलती भी करता है, क्योंकि यह बिना समझे pattern मिलाता है।"
+  },
+  {
+    "id": "BYTE-019",
+    "num": 19,
+    "title": "How a voice assistant hears",
+    "date": "2026-09-01",
+    "card": "social/cards/card_019_voice.png",
+    "caption": "*How does a voice assistant hear you?*\nWhen you speak to a device, it does three quick jobs. It turns your sound into text. It works out what the text is asking. Then it speaks an answer back.\nThe hard part is the first job, because everyone's voice, accent, and background noise differ. That is why it sometimes hears the wrong word.\nIt is not listening the way a person listens. It is matching your sound against patterns it was trained on.\n\n*आवाज़ वाला assistant आपको सुनता कैसे है?*\nजब आप किसी device से बोलते हैं, वह तीन काम फटाफट करता है। आपकी आवाज़ को text में बदलता है। समझता है कि text क्या पूछ रहा है। फिर जवाब बोलकर देता है।\nमुश्किल हिस्सा पहला है, क्योंकि हर किसी की आवाज़, लहजा, और आसपास का शोर अलग होता है। इसीलिए वह कभी-कभी गलत शब्द सुन लेता है।\nवह इंसान की तरह नहीं सुन रहा। वह आपकी आवाज़ को उन pattern से मिला रहा है जिन पर उसे train किया गया था।"
+  },
+  {
+    "id": "BYTE-020",
+    "num": 20,
+    "title": "Train your own model, no code",
+    "date": "2026-09-02",
+    "card": "social/cards/card_020_teachable.png",
+    "caption": "*You can train your own AI, with no code.*\nTeaching a machine sounds like a job for engineers. It is not any more. With a free tool called Google Teachable Machine, a beginner can train a working model in a few minutes.\nShow it some photos of ripe and unripe tomatoes, click train, and it starts telling them apart. No programming.\nThis is what learners do in their first weeks at the lab. Making the machine learn is how the idea finally clicks.\n\n*आप अपना खुद का AI train कर सकते हैं, बिना code के।*\nमशीन को सिखाना इंजीनियरों का काम लगता है। अब नहीं है। Google Teachable Machine नाम के एक free tool से, एक शुरुआती व्यक्ति कुछ ही मिनटों में एक चलता-फिरता model train कर सकता है।\nउसे पकी और कच्ची टमाटर की कुछ तस्वीरें दिखाइए, train दबाइए, और वह दोनों में फर्क करने लगता है। कोई programming नहीं।\nयही काम सीखने वाले lab में अपने पहले हफ्तों में करते हैं। मशीन को सिखाना ही वह पल है जब बात असल में समझ आती है।"
+  },
+  {
+    "id": "BYTE-021",
+    "num": 21,
+    "title": "Do not share private data",
+    "date": "2026-09-03",
+    "card": "social/cards/card_021_privacy.png",
+    "caption": "*One safety rule: do not hand AI your secrets.*\nAI tools are helpful, but many send your words to a company's computers. So treat the box like a public place.\nDo not paste your Aadhaar number, bank details, passwords, or private information about others. If you would not shout it in a bus, do not type it into an AI you do not control.\nUse AI freely for learning and drafting. Keep your private numbers out of it.\n\n*एक सुरक्षा नियम: अपने राज़ AI को मत सौंपिए।*\nAI tools मददगार हैं, पर कई आपके शब्द किसी कंपनी के computer तक भेजते हैं। इसलिए इस डिब्बे को एक सार्वजनिक जगह समझिए।\nअपना आधार नंबर, बैंक की जानकारी, password, या दूसरों की निजी जानकारी paste मत कीजिए। जो बात आप बस में चिल्लाकर नहीं कहेंगे, वह ऐसे AI में मत लिखिए जो आपके control में नहीं है।\nसीखने और लिखने के लिए AI खुलकर इस्तेमाल कीजिए। अपने निजी नंबर उससे बाहर रखिए।"
+  },
+  {
+    "id": "BYTE-022",
+    "num": 22,
+    "title": "AI can be biased",
+    "date": "2026-09-04",
+    "card": "social/cards/card_022_bias.png",
+    "caption": "*Why can AI be unfair?*\nAn AI learns from examples made by people, and people carry bias. So the AI can pick it up. Ask some tools for a picture of a \"doctor\" and you may get mostly men. Ask for a \"nurse\" and mostly women.\nThe machine is not choosing to be unfair. It is repeating the pattern it was fed.\nKnowing this makes you a smarter user. When an answer leans one way, ask yourself whose examples taught it that.\n\n*AI पक्षपाती क्यों हो सकता है?*\nAI लोगों के बनाए उदाहरणों से सीखता है, और लोगों में पूर्वाग्रह होते हैं। तो AI उन्हें अपना सकता है। कुछ tools से \"डॉक्टर\" की तस्वीर माँगिए, ज़्यादातर पुरुष मिल सकते हैं। \"नर्स\" माँगिए, ज़्यादातर महिलाएँ।\nमशीन जानबूझकर अन्याय नहीं कर रही। वह उसी pattern को दोहरा रही है जो उसे खिलाया गया।\nयह जानना आपको समझदार उपयोगकर्ता बनाता है। जब कोई जवाब एक तरफ झुके, तो खुद से पूछिए कि किसके उदाहरणों ने उसे यह सिखाया।"
+  },
+  {
+    "id": "BYTE-023",
+    "num": 23,
+    "title": "AI and your work",
+    "date": "2026-09-06",
+    "card": "social/cards/card_023_work.png",
+    "caption": "*Will AI take your job?*\nThe honest answer: AI will not replace most people, but a person using AI may do the work of several who do not. So the useful question is not \"will it take my job\". It is \"can I become the one who uses it\".\nThat is why this lab teaches use, not fear. A shopkeeper who drafts faster, a student who studies smarter, a clerk who writes cleaner, each keeps their edge.\nThe tool is here. Learning to run it is the safe side to stand on.\n\n*क्या AI आपकी नौकरी ले लेगा?*\nसच्चा जवाब: AI ज़्यादातर लोगों की जगह नहीं लेगा, पर AI इस्तेमाल करने वाला एक व्यक्ति उन कई लोगों का काम कर सकता है जो नहीं करते। इसलिए काम का सवाल यह नहीं कि \"क्या यह मेरी नौकरी लेगा\"। सवाल है \"क्या मैं वह बन सकता हूँ जो इसे इस्तेमाल करता है\"।\nइसीलिए यह lab डर नहीं, इस्तेमाल सिखाता है। तेज़ लिखने वाला दुकानदार, समझदारी से पढ़ने वाला छात्र, साफ लिखने वाला क्लर्क, हर कोई अपनी बढ़त बनाए रखता है।\ntool आ चुका है। उसे चलाना सीखना ही सुरक्षित तरफ खड़े होना है।"
+  },
+  {
+    "id": "BYTE-024",
+    "num": 24,
+    "title": "Ask AI to explain a word",
+    "date": "2026-09-06",
+    "card": "social/cards/card_024_word.png",
+    "caption": "*Do not know a word? Ask, in your own language.*\nA form uses a word you do not know. A doctor writes a term you cannot read. Instead of guessing, open a free AI assistant and ask \"what does this word mean, in simple Hindi\".\nYou can ask follow-ups too. \"Give an example.\" \"Is it serious?\" It answers each time, without making you feel small for asking.\nNo question is too basic. That patience is the point of the tool.\n\n*कोई शब्द नहीं जानते? अपनी भाषा में पूछिए।*\nकिसी form में ऐसा शब्द है जो आप नहीं जानते। डॉक्टर ने कोई शब्द लिखा जो पढ़ नहीं पाते। अंदाज़ा लगाने के बजाय, कोई free AI assistant खोलिए और पूछिए \"इस शब्द का मतलब सरल हिंदी में क्या है\"।\nआप आगे सवाल भी पूछ सकते हैं। \"एक उदाहरण दो।\" \"क्या यह गंभीर है?\" वह हर बार जवाब देता है, बिना आपको पूछने पर छोटा महसूस कराए।\nकोई सवाल बहुत मामूली नहीं होता। यही धैर्य इस tool की खासियत है।"
   }
 ]
