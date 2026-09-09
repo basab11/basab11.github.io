@@ -255,6 +255,85 @@
   font-style: italic;
 }
 
+/* --- the thumbs-up ------------------------------------------------------- */
+/* Ships disabled and silent. assets/js/react.js enables it, and the running
+   total only appears for a moment after a press. A reader who does not press
+   never sees a number, so a post with three votes never looks unloved. */
+
+.kv__react {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 2.5rem 0 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.kv__react-ask {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--ink-soft);
+}
+
+.kv__react-btn {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  background: none;
+  border: 2px solid var(--hairline);
+  border-radius: 50%;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+}
+
+.kv__react-btn[disabled] { cursor: default; opacity: 0.55; }
+
+.kv__react-btn:not([disabled]):hover,
+.kv__react-btn:not([disabled]):focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.kv__react-btn.is-pressed {
+  color: var(--flag);
+  border-color: var(--flag);
+}
+
+.kv__react-btn:not([disabled]):active { transform: scale(0.92); }
+
+.kv__thumb { width: 1.4rem; height: 1.4rem; fill: currentColor; }
+
+/* The total, shown only on a press. It is an <output>, so a screen reader is
+   told the number without the focus moving. */
+.kv__react-count {
+  font-family: var(--font-head);
+  font-weight: bold;
+  font-size: 1.05rem;
+  color: var(--flag);
+  font-variant-numeric: tabular-nums;
+  opacity: 0;
+}
+
+.kv__react-count.is-flashing { animation: kv-flash 2.2s ease-out 1; }
+
+@keyframes kv-flash {
+  0%   { opacity: 0; transform: translateY(0.4rem); }
+  12%  { opacity: 1; transform: translateY(0); }
+  70%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-0.3rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kv__react-btn:not([disabled]):active { transform: none; }
+  .kv__react-count.is-flashing { animation: kv-flash-plain 2.2s steps(1, end) 1; }
+  @keyframes kv-flash-plain { 0%, 85% { opacity: 1; } 100% { opacity: 0; } }
+}
+
 /* --- index of posts ------------------------------------------------------ */
 
 .kv__list {

@@ -1,8 +1,11 @@
 /* Bharat Tech-Shakti Mission
    Visit counter for the home page.
 
-   A static site has no server of its own, so the count is kept by a small
-   hosted counting service and this file only asks it for the number.
+   A static site has no server of its own, so the count is kept by our own
+   small Worker and this file only asks it for the number. It used to ask a
+   free hosted counter; that service retired the API it was using and answered
+   410, so the block stayed hidden and the running total was lost. The count
+   below therefore starts again from the offset.
 
    Two things worth knowing.
 
@@ -17,7 +20,7 @@
    The starting figure is set by data-offset on the element, so the displayed
    total begins at 1,129 and climbs from there.
 
-   To point this at a different counting service, change COUNT_URL below and
+   To point this at a different counting service, change ENDPOINT below and
    the line that reads the number out of the reply. Nothing else depends on it. */
 
 (function () {
@@ -27,18 +30,16 @@
   var out = document.getElementById("visit-count");
   if (!box || !out || typeof window.fetch !== "function") { return; }
 
-  var ns     = box.getAttribute("data-namespace");
-  var key    = box.getAttribute("data-key");
-  var offset = parseInt(box.getAttribute("data-offset"), 10) || 0;
-  if (!ns || !key) { return; }
+  /* The Worker that holds the counts. See btsm-worker/README.md. */
+  var ENDPOINT = "https://frosty-night-f29f.dasgupta-basab.workers.dev";
 
-  var base = "https://api.counterapi.dev/v1/" + encodeURIComponent(ns) + "/" + encodeURIComponent(key);
+  var offset = parseInt(box.getAttribute("data-offset"), 10) || 0;
 
   /* Already counted this session, so read the value without adding to it. */
   var counted = false;
   try { counted = window.sessionStorage.getItem("btsm-counted") === "1"; } catch (e) {}
 
-  var url = counted ? base + "/" : base + "/up";
+  var url = ENDPOINT + "/visits" + (counted ? "?peek=1" : "");
 
   window.fetch(url, { cache: "no-store" })
     .then(function (r) { return r.ok ? r.json() : Promise.reject(new Error("bad status")); })
