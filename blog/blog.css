@@ -255,6 +255,11 @@
   font-style: italic;
 }
 
+/* A post may set "Sources" as its own label paragraph above the list, as
+   The Proof and the Warning does. The pair then shares the one rule. */
+.kv__sources:has(+ .kv__sources) { margin-bottom: 0; }
+.kv__sources + .kv__sources { margin-top: 0.3rem; padding-top: 0; border-top: 0; }
+
 /* --- the thumbs-up ------------------------------------------------------- */
 /* Ships disabled and silent. assets/js/react.js enables it, and the running
    total only appears for a moment after a press. A reader who does not press
