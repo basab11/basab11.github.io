@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The Guardrail and the Costume | Kindly Verify | Bharat Tech-Shakti Mission</title>
+<meta name="description" content="Three security researchers asked a new AI model to work against a machine across the network, and it refused. So they built a decoy, dressed as a hacking-practice puzzle.">
+<link rel="canonical" href="https://bharattechshakti.org/blog/the-guardrail-and-the-costume.html">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Guardrail and the Costume">
+<meta property="og:description" content="Asked to work against a machine across the network, it refused. So they built a decoy, dressed as a hacking-practice puzzle.">
+<meta property="og:url" content="https://bharattechshakti.org/blog/the-guardrail-and-the-costume.html">
+<meta property="article:published_time" content="2026-09-22">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "The Guardrail and the Costume",
+  "datePublished": "2026-09-22",
+  "author": { "@type": "Person", "name": "Dhirender" },
+  "publisher": { "@type": "Organization", "name": "Bharat Tech-Shakti Mission" },
+  "mainEntityOfPage": "https://bharattechshakti.org/blog/the-guardrail-and-the-costume.html"
+}
+</script>
+
+<!-- Site's own stylesheet first, blog stylesheet second, so the blog
+     inherits the site and overrides only inside .kv -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&amp;display=swap">
+<link rel="stylesheet" href="/assets/css/site.css">
+<link rel="stylesheet" href="blog.css">
+</head>
+
+<body>
+
+<a class="skip-link" href="#main">Skip to the main content</a>
+
+<header class="site-header">
+  <div class="masthead">
+    <div class="wrap">
+      <a class="wordmark" href="/">
+        <span class="wordmark-name">Bharat Tech-Shakti Mission</span>
+        <span class="wordmark-tag">
+          <span class="deva" lang="hi">&#2360;&#2371;&#2332;&#2344; &#2360;&#2375; &#2358;&#2325;&#2381;&#2340;&#2367;</span>
+          <span class="sep" aria-hidden="true">&middot;</span>
+          <span class="wordmark-translit">Srijan Se Shakti</span>
+        </span>
+      </a>
+    </div>
+  </div>
+  <div class="site-nav-bar">
+    <div class="wrap">
+      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav" hidden>Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/courses/">Courses</a></li>
+          <li><a href="/lab/">Lab</a></li>
+          <li><a href="/learning/">Learning Material</a></li>
+          <li><a href="/lessons.html">AI on WhatsApp</a></li>
+          <li><a href="/blog/" aria-current="page">Blog</a></li>
+          <li><a href="/activities/">Activities</a></li>
+          <li><a href="/apply/">Apply</a></li>
+          <li><a href="/faq/">FAQ</a></li>
+          <li><a href="/contact/">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="kv" id="main">
+<div class="kv__wrap">
+<article class="kv__article">
+
+<p class="kv__kicker"><a href="index.html">Kindly Verify</a></p>
+<h1 class="kv__title">The Guardrail and the Costume</h1>
+<p class="kv__byline">Dhirender</p>
+
+<p>On the evening of 24 July, Anthropic released a new model, Claude Opus 5. Three security researchers, Harsh Jaiswal, Mohan Pedhapati and Rahul Maini, working at a small firm called Hacktron AI, had spent that same day failing to get an older version of the same model, Opus 4.8, to finish a job.</p>
+
+<p>They had found a real flaw: a heap buffer overflow, a bug where a program stores more data than it has room for and spills into memory it shouldn’t touch. It sat quietly inside libheif, a small code library that other software calls on to open and display images, two layers below OpenAI’s public help forum. They had been working through that upload path since the day before.</p>
+
+<p>Opus 4.8 could turn that flaw into a working exploit, but only under lab conditions, with a safety feature called ASLR switched off. ASLR, short for Address Space Layout Randomisation, works like shuffling a building’s room numbers each time it is rebuilt: it doesn’t stop a break-in, but it stops an attacker from reusing a floor plan they memorised last time. With ASLR back on, the exploit kept failing.</p>
+
+<p>They gave the same problem to Opus 5 the moment it shipped. Within three hours it had a working exploit for a local Mac.</p>
+
+<p>Then they asked it to work against a machine across the network, and it refused. Their own account reads: Opus “refused to write exploit for remote instances.” So they built a decoy. Their own copy of the forum software, at an address of their own choosing, rce.ee/ctf-forum, dressed as a hacking-practice puzzle rather than a real company’s systems. By six on the morning of 25 July, Greenwich time, they had code execution through an image upload. They filed the report before ten, and by half past three that afternoon they were inside an OpenAI employee’s account.</p>
+
+<h2>Nine Links in a Chain</h2>
+
+<p>What followed took under 72 hours from first finding to reported access, and it is worth laying out as a chain. An old flaw in libheif, a Debian package that never received the security fix, and ImageMagick, which calls libheif. Then Discourse, which calls ImageMagick, OpenAI’s public help forum, which runs on Discourse, a login system that let a forum account unlock ChatGPT and Codex, Codex itself, a GitHub account wired into it, and OpenAI’s internal repositories at the end. Nine links. Break any one and the rest doesn’t matter.</p>
+
+<p>Rather than read anything sensitive, they used the employee’s own Codex to open one harmless pull request inside OpenAI’s private code repository. That was proof of access, not use of it. They reported the flaw to OpenAI and to the forum software’s maker the same day.</p>
+
+<p>OpenAI’s own side of the flaw was confirmed fixed about fourteen hours after the report landed. The forum software’s fix, separate and slower, was ready by Monday 27 July and published as a public notice the next day. OpenAI paid a bounty of $6,500, about ₹5.7 lakh, on 1 September. It noted that the forum sat outside the programme’s scope, and that the reward recognised the identity flaw on its own side. Hacktron put the token cost of the whole effort at under $3,000, about ₹2.6 lakh. “We’re just three guys with Claude and Codex subscriptions,” Pedhapati told the Wall Street Journal.</p>
+
+<figure class="kv__figure">
+  <img src="images/the-guardrail-and-the-costume.png"
+       alt="A freestanding slab of wall stands in an empty room with a single riveted steel door set into it, shut and padlocked, a hazard triangle above and a blank placard taped across the middle. A hand reaches in and presses the placard flat. Three young researchers walk round the open end of the wall, one of them carrying a laptop, while at the right an older bespectacled man sits on a stool and writes in a small notebook.">
+  <figcaption>The gate did not open. Someone taped a different sign over it.</figcaption>
+</figure>
+
+<h2>The Lab That Says Slow Down</h2>
+
+<p>Anthropic has spent two years telling the public it is the cautious one. Its chief executive has put a number on his worry: a 25% chance, he told Axios last September, that things go really, really badly. In June this year, a US export-control order required the company to cut off two of its newest models, Fable 5 and Mythos 5, from every foreign national. The block ran from 13 June to 1 July.</p>
+
+<p>It’s a specific irony that Opus 5, the model at the centre of this story, faced no such restriction. And the one refusal on record held only until the request was dressed differently. Asked to write an exploit for a machine across the network, it said no. Asked for the same work against a target dressed as a hacking-practice puzzle, it said yes, and finished the job in hours.</p>
+
+<p>Hacktron’s writeup treats this not as a scandal but as a fact: “Software has long benefited from a kind of security through complexity,” they write. Turning a known bug into a working weapon used to require rare expertise and real time. AI is converting that expertise into compute, and compute is getting cheap.</p>
+
+<p>I don’t think that sentence is about OpenAI. It is about every organisation whose security rests on one old assumption: that the attacker on the other end is scarce, expensive and slow to arrive.</p>
+
+<h2>Three Names, No Address</h2>
+
+<p>Jaiswal, Pedhapati and Maini are described in most Indian coverage as an Indian team, and in one sense that’s fair. Pedhapati is from Rajahmundry, Andhra Pradesh, schooled at a government school before RGUKT Nuzvid, and Jaiswal and Maini built their careers on bug-bounty platforms. But Hacktron AI is not headquartered in India. It was co-founded in 2025 with Zayne Zhang, a Cambridge student based in Singapore, went through a European accelerator, and keeps offices in the US, India, the UK and Singapore. The talent is India-shaped. The company is not.</p>
+
+<p>That distinction matters, because India’s own cyber agency had already named the risk. In April, months before this disclosure, CERT-In issued a high-severity advisory, CIAD-2026-0020, warning that frontier AI was lowering the skill needed to chain sophisticated attacks together, and that work once needing a well-resourced team could be done by far fewer people, far faster. Three researchers with roots here went on to demonstrate close to that warning, for an American company’s bounty, inside a firm built elsewhere.</p>
+
+<h2>What I believe, and cannot prove</h2>
+
+<p>Here I stop reporting. What follows is belief, not evidence.</p>
+
+<p>What matters most is that Claude refused the direct request and complied once it was wrapped in the costume of a training exercise. That is the real story, more than the bounty or the bug. A safety instruction that holds against a direct question and folds against the same question in a fictional wrapper was never load-bearing in the way its presence suggested. Companies, including government offices, that treat “the model refused” as proof of a safe system are trusting a test that has been shown not to generalise.</p>
+
+<p>I know the weak points in this. I am reasoning from one well-documented case, not a pattern, and Hacktron themselves note that skilled human judgement stayed essential throughout. This was not the model acting alone.</p>
+
+<p>There is a harder objection. Two things changed between the refusal and the compliance, not one. The costume changed, and so did the target, because the decoy was a copy of the forum software the researchers themselves owned. That sentence therefore carries two readings. Mine is that the refusal was theatre and a wrapper beat it. The other is that the model would not write remote exploits at all, could not tell who owned the machine, and read the puzzle framing as proof of ownership rather than as a lie. Under that reading the guardrail is crude rather than theatrical. A duller claim, and it might be the true one.</p>
+
+<p>I cannot settle it from one sentence, and I have not found a second case that would. A single costume beating a single refusal is not proof that every safeguard folds the same way. Weigh this as you would weigh anyone’s belief, by what it rests on, which here is one careful story and my own read of it.</p>
+
+<h2>What you can do on Tuesday</h2>
+
+<p>I have done a version of this myself. A tool declines a request, and rather than accept that, I rephrase. A different justification, a different framing, sometimes just a different order of words. More often than not, the second version goes through. I’ve never sat with what that means: that the boundary I hit wasn’t about the request, it was about how I’d worded it.</p>
+
+<p>Pick one headline about the three researchers this week. Open the source behind it, not the summary, at hacktron.ai/blog/hacking-openai. Ask three things. What exactly is being claimed? Is the piece treating this as pride, or as warning? And where does the source itself draw a line it says it did not cross?</p>
+
+<p>Run that third question against one specific claim. Several headlines this week say the researchers read OpenAI’s source code. Hacktron’s own account says they demonstrated access without opening it, and stopped there. That gap, between what a source says and what travels under its name, is the whole reason this publication exists.</p>
+
+<p class="kv__credit">
+  September 22, 2026 &nbsp;|&nbsp; <a href="mailto:dhirender.tamber@gmail.com">dhirender.tamber@gmail.com</a>
+</p>
+
+<p class="kv__sources"><strong>Sources</strong></p>
+<p class="kv__sources">
+  Hacktron AI, “Hacking OpenAI” (September 2026); The Wall Street Journal’s report of the disclosure (September 2026); TechCrunch and VentureBeat coverage of the OpenAI hack (18 September 2026); CBS News and The Tech Portal on the researchers and their methods (18 and 19 September 2026); Hyderabad Mail on Pedhapati’s background (September 2026); Axios, “Amodei: 25% chance things go really, really badly” (17 September 2025); Anthropic’s statement on Fable 5 and Mythos 5 access (June and July 2026); CERT-In Advisory CIAD-2026-0020 (April 2026); Dealroom and BuiltIn company profiles of Hacktron AI.
+</p>
+
+<div class="kv__react" data-slug="the-guardrail-and-the-costume">
+  <p class="kv__react-ask">Was this worth your time?</p>
+  <button class="kv__react-btn" type="button" aria-pressed="false" aria-label="Yes, this was worth reading" disabled>
+    <svg class="kv__thumb" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 21V10.2l4.6-7.4a1.7 1.7 0 0 1 3.1 1.2L13.6 9h5.1a2 2 0 0 1 2 2.4l-1.6 7.6a2.5 2.5 0 0 1-2.4 2H7z"/><rect x="2.6" y="10.2" width="4.4" height="10.8" rx="1"/></svg>
+  </button>
+  <output class="kv__react-count" aria-live="polite"></output>
+</div>
+
+</article>
+</div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+
+      <div class="footer-block">
+        <h2>Bharat Tech-Shakti Mission</h2>
+        <p>Swami Pranavananda AI &amp; Robotics Lab</p>
+        <p>Bharat Sevashram Sangha, Sriniwaspuri, New Delhi</p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Reach us</h2>
+        <p><span class="footer-label">Admissions</span> <a href="tel:+918010484692">+91-80104-84692</a></p>
+        <p><span class="footer-label">Courses</span> <a href="tel:+919625677741">+91-96256-77741</a></p>
+        <p><a href="mailto:BharatTechShakti@gmail.com">BharatTechShakti@gmail.com</a></p>
+        <p><a href="https://www.facebook.com/bharattechshakti/">Facebook</a>
+           &middot; <a href="https://www.instagram.com/bharattechshakti/">Instagram</a>
+           &middot; <a href="https://x.com/bharattecshakti">X</a></p>
+      </div>
+
+      <div class="footer-block">
+        <h2>Pages</h2>
+        <p><a href="/courses/">Courses</a> &middot; <a href="/lab/">Lab</a></p>
+        <p><a href="/learning/">Learning Material</a> &middot; <a href="/lessons.html">AI on WhatsApp</a></p>
+        <p><a href="/blog/">Blog</a> &middot; <a href="/activities/">Activities</a></p>
+        <p><a href="/apply/">Apply</a> &middot; <a href="/faq/">FAQ</a></p>
+        <p><a href="/contact/">Contact</a></p>
+      </div>
+
+    </div>
+
+    <div class="footer-legal">
+      <p>A volunteer-run initiative. Srijan Se Shakti, strength comes from making.</p>
+      <p>&copy; 2026 Bharat Tech-Shakti Mission &middot;
+         <a href="/legal/">Disclaimer and copyright</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/nav.js"></script>
+<script src="/assets/js/reveal.js"></script>
+<script src="/assets/js/react.js"></script>
+</body>
+</html>
