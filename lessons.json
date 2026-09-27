@@ -131,7 +131,7 @@
     "id": "BYTE-017",
     "num": 17,
     "title": "Draft a complaint or request",
-    "date": "2026-08-31",
+    "date": "2026-08-30",
     "card": "social/cards/card_017_complaint.png",
     "caption": "*Need to write a complaint but words fail you?*\nA complaint to the electricity office, a request to a landlord, a message to an officer. Tell a free AI assistant what happened and what you want. Say \"write a polite firm complaint about this\".\nIt gives you clear, calm wording, the kind that gets read and answered. You add the true dates and names.\nMany people stay silent because writing feels hard. This removes that wall.\n\n*शिकायत लिखनी है पर शब्द नहीं मिल रहे?*\nबिजली दफ्तर को शिकायत, मकान मालिक से अनुरोध, किसी अधिकारी को संदेश। किसी free AI assistant को बताइए कि क्या हुआ और आप क्या चाहते हैं। कहिए \"इस बारे में एक विनम्र पर दृढ़ शिकायत लिखो\"।\nवह साफ, शांत शब्द देता है, ऐसे जो पढ़े और सुने जाते हैं। सच्ची तारीखें और नाम आप जोड़िए।\nकई लोग सिर्फ इसलिए चुप रह जाते हैं क्योंकि लिखना मुश्किल लगता है। यह वह दीवार हटा देता है।"
   },
@@ -179,7 +179,7 @@
     "id": "BYTE-023",
     "num": 23,
     "title": "AI and your work",
-    "date": "2026-09-06",
+    "date": "2026-09-05",
     "card": "social/cards/card_023_work.png",
     "caption": "*Will AI take your job?*\nThe honest answer: AI will not replace most people, but a person using AI may do the work of several who do not. So the useful question is not \"will it take my job\". It is \"can I become the one who uses it\".\nThat is why this lab teaches use, not fear. A shopkeeper who drafts faster, a student who studies smarter, a clerk who writes cleaner, each keeps their edge.\nThe tool is here. Learning to run it is the safe side to stand on.\n\n*क्या AI आपकी नौकरी ले लेगा?*\nसच्चा जवाब: AI ज़्यादातर लोगों की जगह नहीं लेगा, पर AI इस्तेमाल करने वाला एक व्यक्ति उन कई लोगों का काम कर सकता है जो नहीं करते। इसलिए काम का सवाल यह नहीं कि \"क्या यह मेरी नौकरी लेगा\"। सवाल है \"क्या मैं वह बन सकता हूँ जो इसे इस्तेमाल करता है\"।\nइसीलिए यह lab डर नहीं, इस्तेमाल सिखाता है। तेज़ लिखने वाला दुकानदार, समझदारी से पढ़ने वाला छात्र, साफ लिखने वाला क्लर्क, हर कोई अपनी बढ़त बनाए रखता है।\ntool आ चुका है। उसे चलाना सीखना ही सुरक्षित तरफ खड़े होना है।"
   },
@@ -190,5 +190,173 @@
     "date": "2026-09-06",
     "card": "social/cards/card_024_word.png",
     "caption": "*Do not know a word? Ask, in your own language.*\nA form uses a word you do not know. A doctor writes a term you cannot read. Instead of guessing, open a free AI assistant and ask \"what does this word mean, in simple Hindi\".\nYou can ask follow-ups too. \"Give an example.\" \"Is it serious?\" It answers each time, without making you feel small for asking.\nNo question is too basic. That patience is the point of the tool.\n\n*कोई शब्द नहीं जानते? अपनी भाषा में पूछिए।*\nकिसी form में ऐसा शब्द है जो आप नहीं जानते। डॉक्टर ने कोई शब्द लिखा जो पढ़ नहीं पाते। अंदाज़ा लगाने के बजाय, कोई free AI assistant खोलिए और पूछिए \"इस शब्द का मतलब सरल हिंदी में क्या है\"।\nआप आगे सवाल भी पूछ सकते हैं। \"एक उदाहरण दो।\" \"क्या यह गंभीर है?\" वह हर बार जवाब देता है, बिना आपको पूछने पर छोटा महसूस कराए।\nकोई सवाल बहुत मामूली नहीं होता। यही धैर्य इस tool की खासियत है।"
+  },
+  {
+    "id": "BYTE-025",
+    "num": 25,
+    "title": "Understand a prescription",
+    "date": "2026-09-07",
+    "card": "social/cards/card_025_prescription.png",
+    "caption": "*Cannot read the doctor's prescription?*\nPhotograph it and ask a free AI assistant to explain it in simple Hindi. It can tell you what a medicine is usually for, and what the timings mean.\nOne caution, and it matters. AI can misread handwriting and it does not know your case. So use this to understand, never to decide. For anything about your dose or your illness, ask the doctor or the chemist.\nUnderstanding your own prescription is a good thing. Deciding on your own is not.\n\n*डॉक्टर का parchi नहीं पढ़ पा रहे?*\nउसकी फोटो लीजिए और किसी free AI assistant से कहिए कि सरल हिंदी में समझाओ। वह बता सकता है कि दवा आमतौर पर किस लिए होती है, और समय का क्या मतलब है।\nएक सावधानी, और यह ज़रूरी है। AI लिखावट गलत पढ़ सकता है और उसे आपकी बीमारी का पता नहीं। इसलिए इसे समझने के लिए इस्तेमाल कीजिए, फैसला लेने के लिए कभी नहीं। दवा की मात्रा या बीमारी की कोई भी बात डॉक्टर या chemist से पूछिए।\nअपनी parchi समझना अच्छी बात है। खुद फैसला करना नहीं।"
+  },
+  {
+    "id": "BYTE-026",
+    "num": 26,
+    "title": "Practise for an interview",
+    "date": "2026-09-08",
+    "card": "social/cards/card_026_interview.png",
+    "caption": "*Practise your interview before you sit for it.*\nTell a free AI assistant the job you have applied for and ask it to ask you ten likely questions, one at a time. Answer each one. Then ask it how your answers could be better.\nYou can do this at home, at night, as many times as you like. It never gets bored and it never judges you.\nMost people walk into an interview having never said their answers out loud even once. This fixes that.\n\n*Interview देने से पहले उसका अभ्यास कीजिए।*\nकिसी free AI assistant को बताइए कि आपने किस नौकरी के लिए आवेदन किया है, और कहिए कि दस संभावित सवाल एक-एक करके पूछो। हर सवाल का जवाब दीजिए। फिर पूछिए कि आपके जवाब कैसे बेहतर हो सकते हैं।\nयह आप घर पर, रात में, जितनी बार चाहें कर सकते हैं। वह न ऊबता है, न आपको परखता है।\nज़्यादातर लोग interview में यह कहे बिना पहुँच जाते हैं कि उन्होंने अपने जवाब एक बार भी बोलकर देखे हों। यह उसी को ठीक करता है।"
+  },
+  {
+    "id": "BYTE-027",
+    "num": 27,
+    "title": "Write a difficult message",
+    "date": "2026-09-09",
+    "card": "social/cards/card_027_message.png",
+    "caption": "*Some messages are hard to write.*\nAsking for money that is owed to you. Saying no to a relative. Telling a customer about a delay. You know what you want to say, but the words come out too harsh or too weak.\nTell a free AI assistant the situation and how you want to sound, firm but polite, or warm but clear. Ask for three versions. Pick the one that sounds like you and change it.\nThe hard part was never the typing. It was finding the right tone.\n\n*कुछ संदेश लिखना मुश्किल होता है।*\nअपना उधार माँगना। किसी रिश्तेदार को मना करना। ग्राहक को देरी की बात बताना। आप जानते हैं क्या कहना है, पर शब्द या तो बहुत कड़े निकलते हैं या बहुत कमज़ोर।\nकिसी free AI assistant को हालात बताइए और यह भी कि आप कैसा लहजा चाहते हैं, दृढ़ पर विनम्र, या गर्मजोशी भरा पर साफ। तीन versions माँगिए। जो आपके जैसा लगे उसे चुनिए और बदल लीजिए।\nमुश्किल कभी लिखना नहीं था। मुश्किल सही लहजा ढूँढना था।"
+  },
+  {
+    "id": "BYTE-028",
+    "num": 28,
+    "title": "Make sense of a bill",
+    "date": "2026-09-10",
+    "card": "social/cards/card_028_bill.png",
+    "caption": "*Confused by a bill or a bank statement?*\nPhotograph it and ask a free AI assistant to explain each charge in simple words. Ask it directly, what am I being charged for, and is anything here unusual.\nIt can point out a service charge you did not notice, or a subscription still being deducted, or a late fee.\nA bill is written for the company that sent it, not for you. This turns it back into plain language.\n\n*Bill या bank statement समझ नहीं आ रहा?*\nउसकी फोटो लीजिए और किसी free AI assistant से कहिए कि हर charge को सरल शब्दों में समझाओ। सीधे पूछिए, मुझसे किस चीज़ का पैसा लिया जा रहा है, और क्या यहाँ कुछ असामान्य है।\nवह कोई ऐसा service charge बता सकता है जो आपने देखा नहीं, या कोई subscription जो अब भी कट रहा है, या कोई late fee।\nBill उस कंपनी की भाषा में लिखा होता है जिसने भेजा है, आपकी भाषा में नहीं। यह उसे वापस सीधी भाषा में ले आता है।"
+  },
+  {
+    "id": "BYTE-029",
+    "num": 29,
+    "title": "Plan a simple budget",
+    "date": "2026-09-11",
+    "card": "social/cards/card_029_budget.png",
+    "caption": "*Where does the money go every month?*\nTell a free AI assistant your monthly income and your main expenses, rent, food, school fees, travel. Ask it to lay out a simple monthly budget and show where you could save.\nYou do not need exact figures. Rough numbers give a useful picture.\nSeeing it written down is the whole point. Most of us carry these numbers in our head, where they never quite add up.\n\n*हर महीने पैसा जाता कहाँ है?*\nकिसी free AI assistant को अपनी महीने की आमदनी और मुख्य खर्च बताइए, किराया, खाना, स्कूल की फीस, आना-जाना। कहिए कि एक सरल महीने का budget बनाकर दिखाओ और बताओ कहाँ बचत हो सकती है।\nसटीक आँकड़े ज़रूरी नहीं। मोटे-मोटे अंदाज़े से भी काम की तस्वीर बन जाती है।\nलिखा हुआ देख लेना ही असली बात है। हम में से ज़्यादातर ये आँकड़े दिमाग में रखते हैं, जहाँ वे कभी ठीक से जुड़ते नहीं।"
+  },
+  {
+    "id": "BYTE-030",
+    "num": 30,
+    "title": "Compare before you buy",
+    "date": "2026-09-12",
+    "card": "social/cards/card_030_compare.png",
+    "caption": "*Comparing two things before you buy?*\nTell a free AI assistant the two models you are looking at and what matters to you, price, battery, size, how long it should last. Ask which suits your need and why.\nYou get a plain comparison instead of a shop's sales pitch.\nAsk it what the weak points are too. A good answer tells you what each one is bad at, not only what it is good at.\n\n*खरीदने से पहले दो चीज़ों की तुलना कर रहे हैं?*\nकिसी free AI assistant को वे दोनों models बताइए जिन्हें आप देख रहे हैं, और यह भी कि आपके लिए क्या मायने रखता है, कीमत, battery, आकार, कितने दिन चले। पूछिए कि आपकी ज़रूरत के लिए कौन सा ठीक है और क्यों।\nदुकान की बिक्री वाली बात के बजाय आपको सीधी तुलना मिलती है।\nकमज़ोरियाँ भी पूछिए। अच्छा जवाब वह है जो बताए कि हर चीज़ में कमी क्या है, सिर्फ खूबी नहीं।"
+  },
+  {
+    "id": "BYTE-031",
+    "num": 31,
+    "title": "Cook from what you have",
+    "date": "2026-09-13",
+    "card": "social/cards/card_031_cook.png",
+    "caption": "*Wondering what to cook tonight?*\nTell a free AI assistant what is in your kitchen right now. Two potatoes, some dal, half an onion, whatever it is. Ask for a simple dish you can make with only those things.\nAsk it to keep the steps short, and to suggest something else if you are missing an ingredient.\nSmall use, real saving. Less waste, one less trip to the shop, and one less evening spent staring into the fridge.\n\n*आज रात क्या बनाएँ, यही सोच रहे हैं?*\nकिसी free AI assistant को बताइए कि इस वक्त आपकी रसोई में क्या है। दो आलू, थोड़ी दाल, आधा प्याज़, जो भी हो। कहिए कि सिर्फ इन्हीं चीज़ों से बनने वाली कोई सरल डिश बताओ।\nकहिए कि तरीका छोटा रखे, और अगर कोई चीज़ कम पड़े तो कुछ और सुझाए।\nछोटा काम, असली बचत। कम बर्बादी, दुकान का एक चक्कर कम, और fridge को ताकते हुए बीतने वाली एक शाम कम।"
+  },
+  {
+    "id": "BYTE-032",
+    "num": 32,
+    "title": "Help with a child's homework",
+    "date": "2026-09-14",
+    "card": "social/cards/card_032_homework.png",
+    "caption": "*Cannot help with your child's homework?*\nYou do not need to know the subject. Photograph the question and ask a free AI assistant to explain it in simple Hindi, the way you would explain it to a ten-year-old.\nThen ask it for two similar practice questions, and let your child try those.\nOne caution worth passing to the child. Ask it to explain, not to write the answer for them. Understanding stays. A copied answer does not.\n\n*बच्चे के homework में मदद नहीं कर पा रहे?*\nविषय जानना ज़रूरी नहीं। सवाल की फोटो लीजिए और किसी free AI assistant से कहिए कि इसे सरल हिंदी में ऐसे समझाओ जैसे दस साल के बच्चे को समझाते हैं।\nफिर उससे दो ऐसे ही अभ्यास सवाल माँगिए, और बच्चे को वे हल करने दीजिए।\nएक बात बच्चे को भी बताइए। उससे समझाने को कहिए, जवाब लिखवाने को नहीं। समझ टिकती है। नकल किया हुआ जवाब नहीं।"
+  },
+  {
+    "id": "BYTE-033",
+    "num": 33,
+    "title": "Practise spoken English",
+    "date": "2026-09-15",
+    "card": "social/cards/card_033_english.png",
+    "caption": "*Want to practise speaking English?*\nOpen a free AI assistant and use the voice option. Tell it to have a simple conversation with you in English, and to correct your mistakes gently as you go.\nTalk about your day, your work, anything. Ask it to slow down if it goes too fast.\nThe reason people stay stuck is not grammar. It is that they have nobody to practise with, and are shy of being laughed at. Here, no one is listening.\n\n*अंग्रेज़ी बोलने का अभ्यास करना चाहते हैं?*\nकोई free AI assistant खोलिए और आवाज़ वाला विकल्प इस्तेमाल कीजिए। कहिए कि मुझसे अंग्रेज़ी में सरल बातचीत करो, और बीच-बीच में मेरी गलतियाँ नरमी से सुधारते रहो।\nअपने दिन के बारे में, अपने काम के बारे में, कुछ भी बात कीजिए। तेज़ बोले तो कहिए धीरे बोलो।\nलोग व्याकरण की वजह से नहीं अटकते। वे इसलिए अटकते हैं कि अभ्यास करने वाला कोई नहीं, और हँसी उड़ने का डर है। यहाँ कोई सुन नहीं रहा।"
+  },
+  {
+    "id": "BYTE-034",
+    "num": 34,
+    "title": "Check a forward before you send it",
+    "date": "2026-09-16",
+    "card": "social/cards/card_034_forward.png",
+    "caption": "*Before you forward that message, check it.*\nPaste a forwarded claim into a free AI assistant and ask, is this true, and what is the evidence. It will often tell you plainly that a claim is old, exaggerated, or already proven false.\nIt can be wrong too, so for anything serious, look for a real news source or an official website.\nA forward takes one second to send and can spread for years. One check costs you almost nothing.\n\n*वह संदेश आगे भेजने से पहले, जाँच लीजिए।*\nकिसी forward किए हुए दावे को free AI assistant में paste कीजिए और पूछिए, क्या यह सच है, और इसका आधार क्या है। वह अक्सर साफ बता देता है कि दावा पुराना है, बढ़ा-चढ़ाकर कहा गया है, या पहले ही झूठा साबित हो चुका है।\nवह भी गलत हो सकता है, इसलिए किसी गंभीर बात के लिए असली खबर या सरकारी website देखिए।\nForward भेजने में एक पल लगता है और वह सालों तक फैलता रहता है। एक जाँच में कुछ नहीं जाता।"
+  },
+  {
+    "id": "BYTE-035",
+    "num": 35,
+    "title": "Plan a trip or an event",
+    "date": "2026-09-17",
+    "card": "social/cards/card_035_trip.png",
+    "caption": "*Planning a trip or a function?*\nTell a free AI assistant where you are going, for how many days, with how many people, and roughly what you can spend. Ask for a simple day-by-day plan.\nFor a function at home, ask for a checklist and a rough timeline of what to arrange when.\nIt will not book anything for you. What it does is stop you forgetting the obvious thing at the last minute.\n\n*कहीं जाने या कोई आयोजन करने की सोच रहे हैं?*\nकिसी free AI assistant को बताइए कि कहाँ जा रहे हैं, कितने दिन के लिए, कितने लोग, और लगभग कितना खर्च कर सकते हैं। एक सरल दिनवार योजना माँगिए।\nघर के किसी कार्यक्रम के लिए, एक checklist माँगिए और मोटा-मोटा समय भी कि क्या कब इंतज़ाम करना है।\nवह आपके लिए कोई booking नहीं करेगा। वह इतना करता है कि आखिरी वक्त पर कोई ज़ाहिर सी बात छूट न जाए।"
+  },
+  {
+    "id": "BYTE-036",
+    "num": 36,
+    "title": "Learn any new skill",
+    "date": "2026-09-18",
+    "card": "social/cards/card_036_learn.png",
+    "caption": "*Want to learn something new?*\nAsk a free AI assistant to teach you, step by step, at your pace. Tell it what you already know and how much time you have each day.\nStitching, basic accounts, a new language, using a computer. Ask for lesson one, and ask it not to move ahead until you say you have understood.\nThe best thing about it is that you can ask the same question five times. No teacher, no classmate, no embarrassment.\n\n*कुछ नया सीखना चाहते हैं?*\nकिसी free AI assistant से कहिए कि आपको कदम-दर-कदम, आपकी रफ्तार से सिखाए। बताइए कि आप पहले से क्या जानते हैं और रोज़ कितना समय दे सकते हैं।\nसिलाई, बुनियादी हिसाब-किताब, कोई नई भाषा, computer चलाना। पहला पाठ माँगिए, और कहिए कि जब तक आप समझ न लें, आगे न बढ़े।\nसबसे अच्छी बात यह है कि आप वही सवाल पाँच बार पूछ सकते हैं। न कोई शिक्षक, न सहपाठी, न कोई शर्मिंदगी।"
+  },
+  {
+    "id": "BYTE-037",
+    "num": 37,
+    "title": "The AI already in your pocket",
+    "date": "2026-09-19",
+    "card": "social/cards/card_037_pocket.png",
+    "caption": "*Your phone has been using AI for years.*\nNot the new assistants, the ordinary things. It sorts your photos by face. It predicts your next word. It cleans up your voice on a call. It blocks spam messages.\nNone of this was called AI when it arrived, so nobody noticed.\nSo the question was never whether you would start using AI. You already were. The question is whether you use it on purpose.\n\n*आपका फोन सालों से AI इस्तेमाल कर रहा है।*\nनए assistants नहीं, आम चीज़ें। वह आपकी तस्वीरें चेहरों से छाँटता है। अगला शब्द पहले ही सुझा देता है। call पर आपकी आवाज़ साफ करता है। spam संदेश रोकता है।\nजब यह सब आया था तब इसे AI नहीं कहा गया, इसलिए किसी ने ध्यान नहीं दिया।\nतो सवाल कभी यह था ही नहीं कि आप AI इस्तेमाल करना शुरू करेंगे या नहीं। आप कर ही रहे थे। सवाल यह है कि आप इसे जानबूझकर इस्तेमाल करते हैं या नहीं।"
+  },
+  {
+    "id": "BYTE-038",
+    "num": 38,
+    "title": "What a sensor is",
+    "date": "2026-09-20",
+    "card": "social/cards/card_038_sensor.png",
+    "caption": "*What is a sensor? Look at your phone.*\nA sensor is anything that turns something from the real world into a number a machine can use. Your phone has many. The camera turns light into numbers. The microphone turns sound into numbers. Another one knows when you tilt the phone.\nAI can only think about what it can measure. Without sensors it has nothing to think about.\nThat is why a smart machine needs eyes and ears before it needs a brain.\n\n*Sensor क्या है? अपना फोन देखिए।*\nSensor वह चीज़ है जो असली दुनिया की किसी बात को ऐसे अंकों में बदल दे जिन्हें मशीन इस्तेमाल कर सके। आपके फोन में कई हैं। camera रोशनी को अंकों में बदलता है। microphone आवाज़ को अंकों में। एक और यह जानता है कि आपने फोन कब झुकाया।\nAI सिर्फ उसी के बारे में सोच सकता है जिसे वह नाप सके। sensor के बिना उसके पास सोचने को कुछ नहीं होता।\nइसीलिए किसी समझदार मशीन को दिमाग से पहले आँख और कान चाहिए।"
+  },
+  {
+    "id": "BYTE-039",
+    "num": 39,
+    "title": "When you talk to a voice assistant",
+    "date": "2026-09-21",
+    "card": "social/cards/card_039_voiceasst.png",
+    "caption": "*What happens when you say Hey to your speaker?*\nThree things, very fast. The microphone turns your voice into sound data. That is matched against patterns to work out the words. Then the words are understood as a request, and an answer comes back.\nMost of that thinking happens far away, on a big computer, not inside the speaker on your shelf.\nWhich is why it needs the internet, and why it sometimes hears the wrong word entirely.\n\n*जब आप अपने speaker से बात करते हैं, तब क्या होता है?*\nतीन चीज़ें, बहुत तेज़ी से। microphone आपकी आवाज़ को आँकड़ों में बदलता है। उन्हें pattern से मिलाकर शब्द पहचाने जाते हैं। फिर शब्दों को एक माँग के रूप में समझा जाता है, और जवाब आता है।\nयह सोचने का ज़्यादातर काम कहीं दूर, किसी बड़े computer पर होता है, आपकी अलमारी पर रखे speaker के अंदर नहीं।\nइसीलिए उसे internet चाहिए, और इसीलिए वह कभी-कभी बिल्कुल गलत शब्द सुन लेता है।"
+  },
+  {
+    "id": "BYTE-040",
+    "num": 40,
+    "title": "What a smart home really is",
+    "date": "2026-09-22",
+    "card": "social/cards/card_040_smarthome.png",
+    "caption": "*What makes a home smart?*\nNot the bulb. A smart bulb is just a bulb that can be switched on by a message instead of a finger.\nWhat makes it smart is the pattern. Once devices can report what they sense and take instructions, something can learn that you leave at nine and return at seven, and act on it.\nDevices give the senses and the hands. AI is the part that decides. Neither is much use alone.\n\n*घर को smart क्या बनाता है?*\nBulb नहीं। smart bulb बस एक bulb है जिसे उंगली के बजाय एक संदेश से जलाया जा सकता है।\nसमझदार उसे pattern बनाता है। जब उपकरण यह बता सकें कि उन्होंने क्या महसूस किया और निर्देश ले सकें, तब कोई चीज़ यह सीख सकती है कि आप नौ बजे निकलते हैं और सात बजे लौटते हैं, और उसी हिसाब से काम कर सकती है।\nउपकरण इंद्रियाँ और हाथ देते हैं। AI वह हिस्सा है जो तय करता है। अकेले दोनों का खास फायदा नहीं।"
+  },
+  {
+    "id": "BYTE-041",
+    "num": 41,
+    "title": "What a robot really is",
+    "date": "2026-09-23",
+    "card": "social/cards/card_041_robot.png",
+    "caption": "*What makes something a robot?*\nThree parts together. Sensors to notice the world, a program to decide, and motors to move something.\nA washing machine has motors but decides almost nothing. A chatbot decides but cannot move. A robot is the one that has all three.\nSo a robot vacuum is a real robot. It senses the wall, decides to turn, and moves. Small, but the whole idea is there.\n\n*किसी चीज़ को robot क्या बनाता है?*\nतीन हिस्से एक साथ। दुनिया को भाँपने के लिए sensors, तय करने के लिए एक program, और कुछ हिलाने के लिए motors।\nWashing machine में motor हैं पर वह लगभग कुछ तय नहीं करती। कोई chatbot तय करता है पर हिल नहीं सकता। robot वह है जिसमें तीनों हों।\nतो घर साफ करने वाला robot सचमुच robot है। वह दीवार भाँपता है, मुड़ने का फैसला करता है, और चलता है। छोटा सा, पर पूरी बात उसी में है।"
+  },
+  {
+    "id": "BYTE-042",
+    "num": 42,
+    "title": "How your camera photo gets better",
+    "date": "2026-09-24",
+    "card": "social/cards/card_042_camera.png",
+    "caption": "*Why do phone photos look better than the lens deserves?*\nBecause the photo you see is not quite the photo the lens took. The moment you press the button, the phone takes several frames and combines them, brightens the dark corners, smooths the noise, and sharpens faces.\nThat work is done by AI trained on millions of photographs.\nUseful to know for a second reason. If a phone can improve a photo this much, a photo is no longer plain proof of what was there.\n\n*फोन की तस्वीरें lens के हिसाब से बेहतर क्यों दिखती हैं?*\nक्योंकि जो तस्वीर आप देखते हैं, वह ठीक वही नहीं है जो lens ने ली। button दबाते ही फोन कई frames लेता है और उन्हें जोड़ता है, अँधेरे कोने उजले करता है, खुरदुरापन घटाता है, और चेहरे साफ करता है।\nयह काम लाखों तस्वीरों पर train किए गए AI से होता है।\nयह जानना एक और वजह से काम का है। अगर फोन तस्वीर इतना सुधार सकता है, तो तस्वीर अब इस बात का सीधा सबूत नहीं रही कि वहाँ क्या था।"
+  },
+  {
+    "id": "BYTE-043",
+    "num": 43,
+    "title": "Spotting an AI-made photo",
+    "date": "2026-09-25",
+    "card": "social/cards/card_043_fakephoto.png",
+    "caption": "*That photo may never have happened.*\nAI can now produce photographs of things that never took place. Some are obvious. Many are not.\nLook closely at hands and fingers, at text on signboards, at jewellery and teeth, and at whether shadows fall the same way. Errors often hide in the small details.\nBut the surest habit is not visual. Before believing a striking image, ask where it first came from, and whether any real news source is carrying it.\n\n*वह तस्वीर शायद कभी हुई ही नहीं।*\nAI अब ऐसी तस्वीरें बना सकता है जिनकी घटना कभी घटी ही नहीं। कुछ साफ पकड़ में आती हैं। कई नहीं।\nहाथ और उंगलियाँ ध्यान से देखिए, board पर लिखे शब्द, गहने और दाँत, और यह भी कि परछाइयाँ एक ही दिशा में हैं या नहीं। गलतियाँ अक्सर छोटी जगहों में छिपती हैं।\nपर सबसे पक्की आदत आँख की नहीं है। किसी चौंकाने वाली तस्वीर पर भरोसा करने से पहले पूछिए कि वह सबसे पहले आई कहाँ से, और क्या कोई असली खबर उसे दे रही है।"
+  },
+  {
+    "id": "BYTE-044",
+    "num": 44,
+    "title": "The voice on the phone may not be real",
+    "date": "2026-09-26",
+    "card": "social/cards/card_044_voicescam.png",
+    "caption": "*A familiar voice on the phone is no longer proof.*\nAI can copy a person's voice from a short clip. Scammers use this. A call comes, the voice sounds like your son or your grandchild, there is an emergency, and money is needed at once.\nThe defence is simple and old. Hang up and call the person back on their own number. Or ask something only they would know.\nAgree one family password today, for exactly this. Tell the older people at home, they are the ones being targeted.\n\n*फोन पर जानी-पहचानी आवाज़ अब सबूत नहीं रही।*\nAI किसी की आवाज़ एक छोटी सी clip से नकल कर सकता है। ठग यही इस्तेमाल करते हैं। call आती है, आवाज़ आपके बेटे या पोते जैसी लगती है, कोई आपात स्थिति है, और तुरंत पैसे चाहिए।\nबचाव सरल और पुराना है। फोन काटिए और उस व्यक्ति को उसके अपने नंबर पर वापस call कीजिए। या कुछ ऐसा पूछिए जो सिर्फ वही जानता हो।\nआज ही घर का एक password तय कर लीजिए, ठीक इसी काम के लिए। घर के बुज़ुर्गों को ज़रूर बताइए, निशाना वही बनाए जाते हैं।"
+  },
+  {
+    "id": "BYTE-045",
+    "num": 45,
+    "title": "When not to trust AI",
+    "date": "2026-09-27",
+    "card": "social/cards/card_045_nottrust.png",
+    "caption": "*Three places to be careful with AI.*\nHealth, money, and law. In all three, a confident wrong answer can cost you badly, and AI does not know your situation.\nUse it to understand the words. What does this test mean, what is this clause about, what is this charge. That is genuinely useful.\nBut the decision belongs to a doctor, an accountant, or a lawyer, who knows your case and is answerable for the advice. AI is answerable to no one.\n\n*तीन जगहें जहाँ AI से सावधान रहिए।*\nसेहत, पैसा, और कानून। तीनों में एक आत्मविश्वास भरा गलत जवाब भारी पड़ सकता है, और AI को आपकी स्थिति का पता नहीं होता।\nशब्द समझने के लिए इस्तेमाल कीजिए। इस जाँच का मतलब क्या है, यह शर्त किस बारे में है, यह charge क्या है। यह सचमुच काम का है।\nपर फैसला डॉक्टर, accountant या वकील का है, जो आपका मामला जानता है और अपनी सलाह के लिए जवाबदेह है। AI किसी के प्रति जवाबदेह नहीं।"
   }
 ]
