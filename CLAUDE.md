@@ -1,28 +1,109 @@
-# CLAUDE.md - Bharat Tech-Shakti Mission Website Maintenance Guide
-# Repository: https://github.com/basab11/basab11.github.io
-# Domain: https://bharattechshakti.org/
+# CLAUDE.md — Bharat Tech-Shakti Mission Website
 
-## 1. Single Source of Truth: Canonical Navigation Bar
-The header navigation is replicated across every HTML page because this repository uses `.nojekyll` on GitHub Pages. 
-Whenever editing any page or adding new pages, ensure the top menu matches the EXACT 10-item structure below:
+## What this project is
+
+A public, multi-page static website for the Bharat Tech-Shakti Mission and the
+Swami Pranavananda AI & Robotics Lab. It has two jobs. It tells visitors who we
+are, what the lab offers, and how to join. And it is the target for QR codes
+printed into the Beginner course learning material.
+
+## How to work on this project
+
+Work in defined stages. Do not build the whole site in one pass. At each stage,
+show your plan or output and wait for my approval before moving on. Never
+publish or deploy without my say-so.
+
+## Technical rules
+
+* Plain HTML and CSS only. No framework, no build step. JavaScript only for the
+navigation menu.
+* Hosted on GitHub Pages from a public repository.
+* Every page shares one header and one footer.
+* English at launch. Lay out every page so a Hindi mirror under /hi/ can be
+added later without a rebuild. Do not write the Hindi yet.
+* Mobile first. Most visitors arrive by scanning a QR code on a phone. Pages
+must read well on a small screen.
+* Do not put large images or any video in the repository. Flag any video, and
+any image over about 1 MB, for me to handle outside the repo. Use a
+compressed copy or a link instead.
+
+## Palette (from the printed book, exact)
+
+* Navy #1A3A6B: headings, the top navigation bar, rules, icons, links.
+* Saffron #F47920: accent bars, buttons, the active menu item, highlights.
+* Cream #FAF3E3: soft background for cards or illustration areas only. The page
+background stays white, matching the book. Do not flood a page with cream.
+* Body text black #000000. Captions and hairlines grey #555555. White #FFFFFF
+for text on navy. Use no other colours.
+
+## Fonts (echo the book)
+
+* Headings: Trebuchet MS Bold, navy, with a clean sans-serif fallback.
+* Body: Calibri, with a plain system sans-serif fallback.
+* Code samples: Consolas, monospace fallback.
+* Hindi, when added later: Noto Sans Devanagari from Google Fonts. Never italic.
+* Separate heading parts with a middot ·, not a dash.
+
+## Voice and writing rules
+
+* Warm, plain, patient English. Short sentences. Readable by a first-time
+computer user and a school student alike.
+* No em dashes. No semicolons in prose.
+* Replace the word "research" with "gathering more information".
+* Avoid corporate filler: leverage, robust, seamless, ensure, foster, utilise,
+synergy, holistic, journey, innovative, essential, moreover, furthermore,
+specifically, delve, elevate, unlock, vibrant, and similar.
+* Recurring characters, if used, are first names only: Meena, Rakesh, Sunita,
+Dadaji.
+
+## Branding (there is no logo)
+
+The Mission has no logo. The site's identity is a text wordmark. In the header,
+set "Bharat Tech-Shakti Mission" in Trebuchet MS Bold navy, with the tagline
+"Srijan Se Shakti" beneath it. The Devanagari सृजन से शक्ति may sit alongside the
+transliteration as a brand anchor, even before the rest of the site is
+bilingual. Load Noto Sans Devanagari for that one line. No logo image anywhere.
+
+## The pages
+
+Top navigation, in this order: Home, Courses, Lab, Learning Material, AI on
+WhatsApp, Blog, Activities, Apply, FAQ, Contact. The exact block is fixed below
+under "Canonical top navigation".
+
+* Home: the mission in plain words, who can learn here, one line on community
+based AI learning, a clear path to Apply. Source who/what/why from the preface
+in reference/chapters/. May carry a short AI Shakti block that links to
+/lessons.html. It is not its own menu item.
+* Courses: Beginner, Intermediate, Advanced, with hours, fees, and the batch
+model. Beginner is live. Mark Intermediate and Advanced as planned if the
+source says so.
+* Lab: the space and its equipment, from the brochure in
+reference/forms-and-brochure/.
+* Learning Material: the QR target. See the rule below.
+* AI on WhatsApp: the page at /lessons.html. The single home of the AI Shakti
+campaign. See the lessons.html rule below.
+* Activities: completed events, newest first. Inauguration and the PGDAV
+masterclass. See the Activities rule below.
+* Apply: how to join. Link to a Google Form that I will create and give you the
+link for. Until I supply the link, use a clearly marked placeholder button. A
+static site cannot process a form itself, so the Google Form does the
+collection. Form responses route privately to a monitored inbox. Do NOT
+display any personal email on the site. The only email shown publicly is the
+mission address on the Contact page.
+* Contact: phone +91-80104-84692, email BharatTechShakti@gmail.com,
+Instagram @BharatTechShakti, X @Tech_Shakti. No live contact form.
+
+## Canonical top navigation (single source of truth)
+
+Every page carries this exact nav block, byte for byte. The only per-page
+change is which one link gets `aria-current="page"`. The chapter pages under
+/learning/beginner/ mark the Learning Material link. The blog index and every
+post under /blog/ mark the Blog link. Pages with no place in the
+menu (404, /legal/) carry the block with no `aria-current` at all. Do not add,
+remove, reorder, or rename items on one page only. Change it here first, then
+apply the same change to every page in one pass.
 
 ```html
-<header class="site-header">
-  <div class="masthead">
-    <div class="wrap">
-      <a class="wordmark" href="/">
-        <span class="wordmark-name">Bharat Tech-Shakti Mission</span>
-        <span class="wordmark-tag">
-          <span class="deva" lang="hi">&#2360;&#2371;&#2332;&#2344; &#2360;&#2375; &#2358;&#2325;&#2381;&#2340;&#2367;</span>
-          <span class="sep" aria-hidden="true">&middot;</span>
-          <span class="wordmark-translit">Srijan Se Shakti</span>
-        </span>
-      </a>
-    </div>
-  </div>
-  <div class="site-nav-bar">
-    <div class="wrap">
-      <button class="nav-toggle" type="button" aria-expanded="true" aria-controls="site-nav" hidden>Menu</button>
       <nav class="site-nav" id="site-nav" aria-label="Main">
         <ul>
           <li><a href="/">Home</a></li>
@@ -37,38 +118,3 @@ Whenever editing any page or adding new pages, ensure the top menu matches the E
           <li><a href="/contact/">Contact</a></li>
         </ul>
       </nav>
-    </div>
-  </div>
-</header>
-```
-
-> **CRITICAL RULE**: The only thing that changes between pages is which nav link carries `aria-current="page"`.
-> Never add a separate "WhatsApp" anchor link pointing to the homepage. The sole home for the campaign is `/lessons.html` under the label **"AI on WhatsApp"** (Campaign: **AI Shakti**).
-
----
-
-## 2. Structure of lessons.html ("AI Shakti on WhatsApp")
-`lessons.html` is the single home of the AI Shakti campaign:
-1. **Top Section**: Join-the-group call to action banner with QR code (`/assets/img/whatsapp-qr.png`) linking to WhatsApp (`https://chat.whatsapp.com/LlfkZSoZBm9FxmmA8YlOtB`).
-2. **Bottom Section**: Chronological archive of past lessons dynamically rendered into `#root` from `lessons.json`.
-
-### Weekly Update Isolation Rule
-- The weekly WhatsApp lesson update routine **MUST ONLY** append new lesson objects to `lessons.json`.
-- It **MUST NEVER** alter the top QR/CTA block, the page layout, or the header navigation in `lessons.html`.
-- Do not modify `assets/js/nav.js` or `assets/css/site.css` during weekly lesson updates.
-
----
-
-## 3. Brand & Volunteer Attribution
-- The website showcases the initiative as:
-  *"Bharat Tech-Shakti Mission is a volunteer-led initiative operating at the Swami Pranavananda AI & Robotics Lab, Bharat Sevashram Sangha, Sriniwaspuri, New Delhi."*
-- Maintain the plain-language disclaimer in `/legal/` that protects the organization and sets expectations.
-
----
-
-## 4. Pre-Push Verification Check
-Run this verification grep before pushing changes to ensure zero menu drift:
-```bash
-# Ensure every HTML page carries the canonical 10 nav links
-grep -L '/lessons.html' *.html */*.html */*/*.html
-```
