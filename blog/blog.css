@@ -136,6 +136,10 @@
   margin: 0 auto 2.5rem;
 }
 
+/* A quieter lede, for the note on how the drawings are made. Declared after
+   .kv__lede so it wins at the same specificity. */
+.kv__note { font-size: 0.9rem; color: var(--ink-soft); }
+
 /* --- a single post ------------------------------------------------------- */
 /* One column. The title, the saffron rule beneath the byline, the body text
    and the illustration all share --measure, so every edge lines up. */
@@ -231,6 +235,10 @@
   font-size: 0.85rem;
   color: var(--ink-soft);
 }
+
+/* The section index sets a figure straight in .kv__wrap, outside any
+   .kv__article, so hold it to the text column there. Posts never match. */
+.kv__wrap > .kv__figure { max-width: var(--measure); margin-inline: auto; }
 
 /* --- the standard credit block ------------------------------------------- */
 /* Same on every post, by anyone. This is the section's signature. */
