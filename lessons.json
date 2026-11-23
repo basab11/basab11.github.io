@@ -395,7 +395,7 @@
     "id": "BYTE-050",
     "num": 50,
     "title": "Maps know the traffic",
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "card": "social/cards/card_050_maps.png",
     "caption": "*How does the map know there is a jam?*\nIt is not watching the road. It is watching phones. Thousands of phones on that road, each quietly reporting how fast it is moving.\nWhen many phones slow to a crawl on one stretch, the map colours it red. AI then compares this with the same road on the same day for years past, and predicts what it will be like by the time you reach it.\nYou are not only using the map. You are part of how it works.\n\n*Map को कैसे पता चलता है कि जाम लगा है?*\nवह सड़क नहीं देख रहा। वह फोन देख रहा है। उस सड़क पर चल रहे हज़ारों फोन, हर एक चुपचाप बता रहा है कि वह कितनी तेज़ चल रहा है।\nजब एक हिस्से पर कई फोन रेंगने लगते हैं, map उसे लाल कर देता है। फिर AI इसकी तुलना पिछले सालों के उसी दिन, उसी सड़क से करता है, और अंदाज़ा लगाता है कि आपके पहुँचने तक हाल क्या होगा।\nआप सिर्फ map इस्तेमाल नहीं कर रहे। आप खुद उसका हिस्सा हैं।"
   },
@@ -411,7 +411,7 @@
     "id": "BYTE-052",
     "num": 52,
     "title": "Describe your situation",
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "card": "social/cards/card_052_yoursituation.png",
     "caption": "*Tell it about you, not just the task.*\nMost people write the task and stop. \"Write a leave letter.\" The answer comes back general, and general is useless.\nAdd yourself. Who you are, where you work or study, what the real reason is, how formal it needs to be. \"I am a shop assistant, I need two days for my sister's wedding, my manager is strict about notice.\"\nSame task, completely different letter. The AI cannot see your life. It only knows what you tell it.\n\n*काम बताइए, और अपने बारे में भी बताइए।*\nज़्यादातर लोग सिर्फ काम लिखकर रुक जाते हैं। \"छुट्टी का पत्र लिखो।\" जवाब आम सा आता है, और आम सा जवाब बेकार होता है।\nअपने बारे में जोड़िए। आप कौन हैं, कहाँ काम या पढ़ाई करते हैं, असली वजह क्या है, कितना औपचारिक होना चाहिए। \"मैं दुकान पर काम करता हूँ, बहन की शादी के लिए दो दिन चाहिए, मेरे manager सूचना को लेकर सख्त हैं।\"\nवही काम, बिल्कुल अलग पत्र। AI आपकी ज़िंदगी नहीं देख सकता। वह उतना ही जानता है जितना आप बताते हैं।"
   },
@@ -499,7 +499,7 @@
     "id": "BYTE-063",
     "num": 63,
     "title": "Keep one conversation going",
-    "date": "2026-10-16",
+    "date": "2026-10-17",
     "card": "social/cards/card_063_onethread.png",
     "caption": "*Do not start fresh every time.*\nMost people ask a question, get an answer, and close it. Next time they open a blank box and explain everything again.\nStay in the same conversation instead. It remembers what you said earlier, so you can say \"make it shorter\", \"now in Hindi\", \"change the last line\", without repeating the background.\nThe second and third replies are usually the good ones. The first is only a starting point.\n\n*हर बार शुरू से मत शुरू कीजिए।*\nज़्यादातर लोग एक सवाल पूछते हैं, जवाब लेते हैं, और बंद कर देते हैं। अगली बार खाली डिब्बा खोलकर सब कुछ फिर से समझाते हैं।\nइसके बजाय उसी बातचीत में बने रहिए। उसे याद रहता है कि आपने पहले क्या कहा, तो आप कह सकते हैं \"छोटा करो\", \"अब हिंदी में\", \"आखिरी पंक्ति बदलो\", बिना पूरी बात दोहराए।\nदूसरा और तीसरा जवाब आमतौर पर अच्छे होते हैं। पहला तो बस शुरुआत है।"
   },
@@ -539,7 +539,7 @@
     "id": "BYTE-068",
     "num": 68,
     "title": "AI in the field",
-    "date": "2026-10-21",
+    "date": "2026-10-22",
     "card": "social/cards/card_068_farming.png",
     "caption": "*AI on a farm.*\nA phone photograph of a diseased leaf can now be matched against thousands of images and named, along with what to do about it.\nSatellite pictures show which part of a field is short of water. Weather and price data together suggest when to sow and when to sell.\nNone of this replaces knowing your own land. It adds a second opinion that used to be available only to those who could pay for it.\n\n*खेत पर AI।*\nबीमार पत्ते की एक फोटो अब हज़ारों तस्वीरों से मिलाकर पहचानी जा सकती है, साथ में यह भी कि क्या करना है।\nSatellite की तस्वीरें दिखाती हैं कि खेत के किस हिस्से में पानी कम है। मौसम और भाव के आँकड़े मिलकर बताते हैं कि कब बोना है और कब बेचना है।\nयह सब अपनी ज़मीन की समझ की जगह नहीं लेता। यह एक दूसरी राय जोड़ता है, जो पहले सिर्फ उन्हीं को मिलती थी जो उसका दाम दे सकते थे।"
   },
@@ -566,5 +566,237 @@
     "date": "2026-10-24",
     "card": "social/cards/card_071_owndraft.png",
     "caption": "*Do not start from nothing.*\nWriting something yourself first, however roughly, gives a far better result than asking the AI to write it from scratch.\nType your rough version, mistakes and all, and say: \"Fix the language, keep my meaning, keep it short.\"\nWhat comes back sounds like you, tidied. What comes back from a blank start sounds like a machine, and everyone can tell.\nYour rough draft is not a weakness. It is the most useful thing you can give it.\n\n*शून्य से मत शुरू कीजिए।*\nपहले खुद कुछ लिख लेना, चाहे कच्चा ही सही, उससे कहीं बेहतर नतीजा देता है कि AI से शुरू से लिखवाया जाए।\nअपना कच्चा रूप लिखिए, गलतियों समेत, और कहिए, \"भाषा ठीक करो, मेरा मतलब वही रखो, छोटा रखो।\"\nजो लौटेगा वह आपके जैसा लगेगा, बस सँवरा हुआ। खाली से शुरू करने पर जो आता है वह मशीन जैसा लगता है, और सब पहचान लेते हैं।\nआपका कच्चा मसौदा कमज़ोरी नहीं है। वह सबसे काम की चीज़ है जो आप उसे दे सकते हैं।"
+  },
+  {
+    "id": "BYTE-072",
+    "num": 72,
+    "title": "Why did it say that",
+    "date": "2026-10-25",
+    "card": "social/cards/card_072_whysaythat.png",
+    "caption": "*Ask it to show its working.*\nAn AI can give an answer without telling you how it got there, which is a problem when the answer matters. A loan refused, a form rejected, a diagnosis suggested.\nYou can ask. \"Explain how you reached that, step by step.\" Reading the steps is often how you spot the mistake.\nThere is a whole field working on machines that must show their reasoning rather than just their conclusion. It is called explainable AI, and it matters most wherever a decision affects someone's life.\n\n*उससे कहिए कि तरीका दिखाए।*\nAI जवाब दे सकता है बिना यह बताए कि वहाँ तक पहुँचा कैसे, और जब जवाब अहम हो तो यह दिक्कत है। कोई कर्ज़ नामंज़ूर, कोई form खारिज, कोई बीमारी का अंदाज़ा।\nआप पूछ सकते हैं। \"बताओ तुम वहाँ तक कैसे पहुँचे, कदम-दर-कदम।\" कदम पढ़ते हुए ही अक्सर गलती पकड़ में आती है।\nएक पूरा क्षेत्र इसी पर काम कर रहा है कि मशीनें सिर्फ नतीजा नहीं, अपना तर्क भी दिखाएँ। इसे explainable AI कहते हैं, और यह वहाँ सबसे ज़्यादा मायने रखता है जहाँ फैसला किसी की ज़िंदगी पर असर डालता है।"
+  },
+  {
+    "id": "BYTE-073",
+    "num": 73,
+    "title": "Deepfake videos",
+    "date": "2026-10-26",
+    "card": "social/cards/card_073_deepfake.png",
+    "caption": "*A video of a famous person saying something they never said.*\nThese are now easy to make. A well-known face, a familiar voice, recommending an investment scheme or a medicine.\nThe giveaway is rarely the face. It is the ask. A real public figure does not appear in a short video urging strangers to send money to a link.\nBefore believing or forwarding, check whether any news channel or the person's own account carries it. If only one forwarded video exists, that is your answer.\n\n*किसी मशहूर व्यक्ति का ऐसा video जो उसने कभी कहा ही नहीं।*\nये अब आसानी से बन जाते हैं। जाना-पहचाना चेहरा, जानी-पहचानी आवाज़, किसी निवेश योजना या दवा की सिफारिश करते हुए।\nपहचान चेहरे से कम होती है। पहचान माँग से होती है। कोई असली सार्वजनिक व्यक्ति छोटे से video में अजनबियों से किसी link पर पैसे भेजने को नहीं कहता।\nमानने या आगे भेजने से पहले देखिए कि कोई news channel या उस व्यक्ति का अपना account यह दिखा रहा है या नहीं। अगर सिर्फ एक forward किया हुआ video है, तो यही आपका जवाब है।"
+  },
+  {
+    "id": "BYTE-074",
+    "num": 74,
+    "title": "Make a study plan",
+    "date": "2026-10-27",
+    "card": "social/cards/card_074_studyplan.png",
+    "caption": "*Exams coming, and no plan.*\nTell a free AI assistant the subjects, the date of the exam, and honestly how many hours a day you can study. Ask for a week-by-week plan with the weak subjects given more time.\nThen ask it to test you. \"Ask me five questions on this chapter, one at a time, and tell me what I got wrong.\"\nThe plan is useful. The testing is what actually makes it stick.\n\n*परीक्षा सिर पर है, और कोई योजना नहीं।*\nकिसी free AI assistant को विषय बताइए, परीक्षा की तारीख, और सच-सच यह भी कि रोज़ कितने घंटे पढ़ सकते हैं। हफ्तेवार योजना माँगिए, जिसमें कमज़ोर विषयों को ज़्यादा समय मिले।\nफिर कहिए कि आपकी परीक्षा ले। \"इस अध्याय पर मुझसे पाँच सवाल पूछो, एक-एक करके, और बताओ कहाँ गलत हुआ।\"\nयोजना काम की है। पर याद असल में परीक्षा देने से रहता है।"
+  },
+  {
+    "id": "BYTE-075",
+    "num": 75,
+    "title": "Why forecasts got better",
+    "date": "2026-10-28",
+    "card": "social/cards/card_075_weather.png",
+    "caption": "*The weather forecast is right more often now.*\nIt used to be a joke. It is not any more. Forecasts a week ahead are now about as good as three-day forecasts were a generation ago.\nPart of this is more measurement, from satellites and stations. Part of it is AI, which learned the patterns from decades of past weather and now produces a forecast in minutes where the old calculations took hours.\nFor a farmer deciding when to harvest, those extra days of warning are the whole point.\n\n*मौसम का पूर्वानुमान अब ज़्यादा बार सही निकलता है।*\nपहले यह मज़ाक का विषय था। अब नहीं है। एक हफ्ते आगे का अनुमान अब लगभग उतना ही सही है जितना एक पीढ़ी पहले तीन दिन का होता था।\nइसकी एक वजह ज़्यादा माप है, satellite और केंद्रों से। दूसरी वजह AI है, जिसने दशकों के पुराने मौसम से ढर्रे सीखे और अब मिनटों में अनुमान बना देता है, जहाँ पुरानी गणना में घंटों लगते थे।\nकिसान के लिए, जो तय कर रहा है कि कब काटना है, चेतावनी के वे अतिरिक्त दिन ही सब कुछ हैं।"
+  },
+  {
+    "id": "BYTE-076",
+    "num": 76,
+    "title": "Ask for the reasoning",
+    "date": "2026-10-29",
+    "card": "social/cards/card_076_reasoning.png",
+    "caption": "*Ask why, not just what.*\nWhen an AI gives you a recommendation, a number, or a choice between options, add one line: \"Explain why, and tell me what would change your answer.\"\nTwo useful things come back. The reasons, which you can judge for yourself. And the conditions, which tell you when the advice stops applying.\nAn answer you cannot question is not much use. An answer that shows its reasons can be argued with, and that is when you are actually using it well.\n\n*सिर्फ क्या नहीं, क्यों भी पूछिए।*\nजब AI कोई सुझाव, कोई आँकड़ा, या विकल्पों में से कोई चुनाव दे, तो एक पंक्ति जोड़िए, \"बताओ क्यों, और यह भी कि किस बात से तुम्हारा जवाब बदल जाएगा।\"\nदो काम की चीज़ें लौटती हैं। कारण, जिन्हें आप खुद परख सकते हैं। और शर्तें, जो बताती हैं कि सलाह कब लागू होना बंद हो जाती है।\nजिस जवाब पर सवाल न उठाया जा सके उसका खास फायदा नहीं। जो जवाब अपने कारण दिखाए उससे बहस हो सकती है, और तभी आप उसे सही मायने में इस्तेमाल कर रहे होते हैं।"
+  },
+  {
+    "id": "BYTE-077",
+    "num": 77,
+    "title": "Protecting the elders at home",
+    "date": "2026-10-31",
+    "card": "social/cards/card_077_elders.png",
+    "caption": "*The people most at risk are at home.*\nOlder family members are targeted deliberately. They are trusting, often alone when the call comes, and may not have heard that a voice can be copied.\nThree things help, and none need technical skill. Agree a family word a real caller would know. Tell them no bank or officer asks for money or an OTP by phone. And say that calling you to check is never a bother.\nMost of these frauds work because someone felt too rushed to ask.\n\n*सबसे ज़्यादा खतरे में जो हैं, वे घर पर हैं।*\nघर के बुज़ुर्ग जानबूझकर निशाना बनाए जाते हैं। वे भरोसा करते हैं, call आने पर अक्सर अकेले होते हैं, और शायद जानते ही नहीं कि आवाज़ नकल की जा सकती है।\nतीन बातें मदद करती हैं, तकनीकी जानकारी कोई नहीं चाहिए। घर का एक शब्द तय कीजिए जो असली call करने वाला जानता हो। बताइए कि बैंक या अधिकारी फोन पर पैसे या OTP नहीं माँगते। और कहिए कि पूछने के लिए call करना कभी परेशानी नहीं।\nये ठगी ज़्यादातर जल्दबाज़ी की वजह से चलती हैं।"
+  },
+  {
+    "id": "BYTE-078",
+    "num": 78,
+    "title": "Your phone sorts your photos",
+    "date": "2026-10-31",
+    "card": "social/cards/card_078_photosort.png",
+    "caption": "*How does your phone know which photos have your daughter in them?*\nIt has quietly grouped faces. Not by knowing who anyone is, but by noticing that the same arrangement of features keeps appearing, and putting those together. You supply the name once, and the label sticks to the group.\nIt does the same with places and with things, so searching for \"beach\" finds beaches you never labelled.\nOn most phones this happens inside the phone, and the photographs stay there.\n\n*आपके फोन को कैसे पता कि किन तस्वीरों में आपकी बेटी है?*\nउसने चुपचाप चेहरों को समूहों में बाँटा है। यह जानकर नहीं कि कौन कौन है, बल्कि यह देखकर कि एक जैसी बनावट बार-बार आ रही है, और उन्हें साथ रखकर। नाम आप एक बार देते हैं, और वह पूरे समूह पर चिपक जाता है।\nवह यही जगहों और चीज़ों के साथ करता है, इसलिए \"समुद्र तट\" खोजने पर वे तस्वीरें भी मिलती हैं जिन पर आपने कोई नाम नहीं लिखा।\nज़्यादातर फोन में यह काम फोन के भीतर ही होता है, और तस्वीरें वहीं रहती हैं।"
+  },
+  {
+    "id": "BYTE-079",
+    "num": 79,
+    "title": "Where the machine sits",
+    "date": "2026-11-01",
+    "card": "social/cards/card_079_sovereign.png",
+    "caption": "*Whose computer is answering you?*\nWhen you ask an AI something, the answer usually comes from a data centre in another country, run by a foreign company, under that country's laws.\nFor a casual question it hardly matters. For government records, hospital data or defence, a country may not want its information leaving, or its services depending on a company it cannot govern.\nThat is why India and others are building their own AI and data centres. The idea is called sovereign AI.\n\n*आपको जवाब किसका computer दे रहा है?*\nजब आप AI से कुछ पूछते हैं, जवाब आमतौर पर किसी दूसरे देश के data centre से आता है, किसी विदेशी कंपनी का चलाया हुआ, उस देश के कानून के तहत।\nआम सवाल के लिए फर्क नहीं पड़ता। पर सरकारी रिकॉर्ड, अस्पताल के आँकड़े या रक्षा में, कोई देश नहीं चाहेगा कि उसकी जानकारी बाहर जाए, या सेवाएँ ऐसी कंपनी पर निर्भर हों जिस पर उसका कानून नहीं चलता।\nइसीलिए भारत और कई देश अपना AI और data centre बना रहे हैं। इसे sovereign AI कहते हैं।"
+  },
+  {
+    "id": "BYTE-080",
+    "num": 80,
+    "title": "Ask AI to explain it again, simpler",
+    "date": "2026-11-02",
+    "card": "social/cards/card_080_explain_simpler.png",
+    "caption": "*Ask AI to explain it again, simpler*\nAI explains at whatever level it guesses. If the answer went over your head, do not give up. Say: explain it again, much simpler, as if to someone who has never studied this.\nAsk a third time if needed. Ask for an everyday example. Ask AI to use no technical words at all.\nA teacher has thirty students and little time. AI has only you, and no patience to run out.\n\n*AI से कहिए, और आसान करके समझाओ*\nAI जिस स्तर का अंदाज़ा लगाता है, उसी पर समझाता है। अगर जवाब सिर के ऊपर से निकल गया, हार मत मानिए। कहिए, फिर से समझाओ, बहुत सरल करके, जैसे किसी ने यह कभी पढ़ा ही न हो।\nतीसरी बार भी पूछ सकते हैं। रोज़मर्रा का उदाहरण माँगिए। कहिए कोई तकनीकी शब्द मत इस्तेमाल करो।\nशिक्षक के पास तीस छात्र होते हैं और कम समय। AI के पास सिर्फ आप हैं, और धैर्य कभी खत्म नहीं होता।"
+  },
+  {
+    "id": "BYTE-081",
+    "num": 81,
+    "title": "Ask AI for a table",
+    "date": "2026-11-03",
+    "card": "social/cards/card_081_table.png",
+    "caption": "*Ask AI for a table*\nWhen the answer has more than one option, a paragraph hides the differences. A table shows them.\nSay: put this in a table, one row for each option, columns for price, life, and what it is good for.\nA table is read in ten seconds. A paragraph takes a minute and still leaves you unsure.\nThe same answer, arranged better, becomes a decision you can make.\n\n*AI से table माँगिए*\nजब जवाब में एक से ज़्यादा विकल्प हों, तो पैराग्राफ फर्क छिपा देता है। Table उसे दिखा देता है।\nकहिए, इसे table में दीजिए, हर विकल्प के लिए एक पंक्ति, और कीमत, टिकाऊपन और किस काम के लिए अच्छा है, इनके खाने।\nTable दस सेकंड में पढ़ा जाता है। पैराग्राफ में एक मिनट लगता है और फिर भी उलझन रहती है।\nवही जवाब, बेहतर सजाकर, एक ऐसा फैसला बन जाता है जो आप ले सकें।"
+  },
+  {
+    "id": "BYTE-082",
+    "num": 82,
+    "title": "AI can listen and reply as you speak",
+    "date": "2026-11-04",
+    "card": "social/cards/card_082_voicemode.png",
+    "caption": "*AI can listen and reply as you speak*\nMost AI assistants have a voice mode. You speak, AI replies out loud, and you can interrupt it like a normal conversation.\nFor anyone who finds typing slow, or whose eyes tire, this changes everything. Ask while cooking. Ask while walking. Ask in Hindi.\nIt is also the easiest way to let an older person try AI for the first time. No keyboard, no screen to peer at, just talking.\n\n*अब AI से बोलकर बात कीजिए*\nज़्यादातर AI assistants में आवाज़ वाला तरीका है। आप बोलते हैं, AI बोलकर जवाब देता है, और आप बीच में टोक भी सकते हैं, जैसे आम बातचीत में।\nजिन्हें टाइप करना धीमा लगता है, या जिनकी आँखें थक जाती हैं, उनके लिए यह सब कुछ बदल देता है। खाना बनाते हुए पूछिए। चलते हुए पूछिए। हिंदी में पूछिए।\nकिसी बुज़ुर्ग को पहली बार AI दिखाने का भी यही सबसे आसान तरीका है। न keyboard, न screen पर नज़र गड़ाना, बस बात।"
+  },
+  {
+    "id": "BYTE-083",
+    "num": 83,
+    "title": "Testing yourself is better than re-reading",
+    "date": "2026-11-05",
+    "card": "social/cards/card_083_testyourself.png",
+    "caption": "*Testing yourself is better than re-reading*\nWhen you read a page a second time it feels familiar, and that familiarity feels like knowing. Then the exam comes and it is gone.\nWhat works is being asked. Give AI what you studied and say: ask me five questions on this, one at a time, and tell me where I went wrong.\nStruggling to recall is uncomfortable, which is exactly why it works. The effort is the learning.\n\n*दोबारा पढ़ने से बेहतर है खुद को परखना*\nजब आप कोई पन्ना दूसरी बार पढ़ते हैं, वह जाना-पहचाना लगता है, और वही पहचान जानने जैसी लगती है। फिर परीक्षा आती है और सब गायब।\nकाम करता है सवाल पूछा जाना। जो पढ़ा वह AI को दीजिए और कहिए, इस पर मुझसे पाँच सवाल पूछो, एक-एक करके, और बताओ कहाँ गलत हुआ।\nयाद करने में जो मेहनत लगती है, वही असली सीखना है। इसीलिए यह काम करता है।"
+  },
+  {
+    "id": "BYTE-084",
+    "num": 84,
+    "title": "Ask AI for five versions, not one",
+    "date": "2026-11-06",
+    "card": "social/cards/card_084_fiveversions.png",
+    "caption": "*Ask AI for five versions, not one*\nInstead of asking again and again, say: give me five different versions, each in a different tone.\nYou get a formal one, a warm one, a short one, a firm one. Reading them side by side shows what you actually wanted, which is hard to name until you see it.\nThen take the opening of one and the ending of another. The final version is yours, assembled.\n\n*AI से एक नहीं, पाँच तरह से लिखवाइए*\nबार-बार पूछने के बजाय कहिए, पाँच अलग-अलग रूप दो, हर एक अलग लहजे में।\nएक औपचारिक मिलेगा, एक अपनापन भरा, एक छोटा, एक सख्त। साथ-साथ पढ़ने पर समझ आता है कि आप असल में क्या चाहते थे, जो देखे बिना बताना मुश्किल होता है।\nफिर एक की शुरुआत लीजिए और दूसरे का अंत। आखिरी रूप आपका बनता है, जोड़कर।"
+  },
+  {
+    "id": "BYTE-085",
+    "num": 85,
+    "title": "Ask AI to make questions from your chapter",
+    "date": "2026-11-07",
+    "card": "social/cards/card_085_makequestions.png",
+    "caption": "*Ask AI to make questions from your chapter*\nPaste or photograph what you are studying and say: make ten questions from this, the kind that would be asked in an exam.\nNow you have a test before the test. Answer each one, then ask AI to check you.\nThe questions you cannot answer are the parts you skimmed. You find the gaps while there is still time to fill them.\n\n*AI से कहिए, इस अध्याय से सवाल बनाओ*\nजो पढ़ रहे हैं उसे paste कीजिए या उसकी फोटो दीजिए, और कहिए, इसमें से दस सवाल बनाओ, जैसे परीक्षा में पूछे जाते हैं।\nअब परीक्षा से पहले एक परीक्षा आपके पास है। हर सवाल का जवाब दीजिए, फिर AI से जाँच करवाइए।\nजिन सवालों का जवाब नहीं आता, वही हिस्से आपने सरसरी तौर पर पढ़े थे। कमियाँ तब मिल जाती हैं जब भरने का समय बचा हो।"
+  },
+  {
+    "id": "BYTE-086",
+    "num": 86,
+    "title": "Show AI to an elder at home",
+    "date": "2026-11-08",
+    "card": "social/cards/card_086_elder.png",
+    "caption": "*Show AI to an elder at home*\nMany older people assume AI is not for them. The way past that is not explaining AI. It is showing one thing they actually want.\nUse the voice mode so there is no typing. Then ask something from their own life. A medicine name explained in Hindi. An old song. A recipe from their childhood.\nOne useful answer does more than an hour of explanation. After that, curiosity does the rest.\n\n*घर के बुज़ुर्ग को AI दिखाइए*\nकई बुज़ुर्ग मान लेते हैं कि AI उनके लिए नहीं है। इससे पार पाने का रास्ता AI समझाना नहीं है। एक ऐसी चीज़ दिखाना है जो उन्हें सचमुच चाहिए।\nआवाज़ वाला तरीका इस्तेमाल कीजिए ताकि टाइप करना न पड़े। फिर उनकी अपनी ज़िंदगी से कुछ पूछिए। किसी दवा का नाम हिंदी में समझाया हुआ। कोई पुराना गाना। बचपन की कोई विधि।\nएक काम का जवाब घंटे भर की व्याख्या से ज़्यादा करता है। उसके बाद जिज्ञासा खुद रास्ता बना लेती है।"
+  },
+  {
+    "id": "BYTE-087",
+    "num": 87,
+    "title": "Tell AI to keep it short",
+    "date": "2026-11-09",
+    "card": "social/cards/card_087_bebrief.png",
+    "caption": "*Tell AI to keep it short*\nAI writes long because nobody told it not to. Left alone it gives four paragraphs where two lines would do.\nFix it in the question. Say: answer in three sentences. Or, one line only. Or, just the steps, no explanation.\nYou can always ask for more. Starting short and expanding is faster than reading long and hunting for the answer inside it.\n\n*AI से कहिए छोटा रखो*\nAI लंबा लिखता है क्योंकि किसी ने मना नहीं किया। अपने आप छोड़ दीजिए तो चार पैराग्राफ दे देगा जहाँ दो पंक्तियाँ काफी थीं।\nइसे सवाल में ही ठीक कीजिए। कहिए, तीन वाक्यों में जवाब दो। या, सिर्फ एक पंक्ति। या, सिर्फ चरण बताओ, समझाना मत।\nऔर चाहिए तो बाद में माँग सकते हैं। छोटे से शुरू करके बढ़ाना, लंबा पढ़कर उसमें जवाब ढूँढने से तेज़ है।"
+  },
+  {
+    "id": "BYTE-088",
+    "num": 88,
+    "title": "Learn a subject your school never taught",
+    "date": "2026-11-10",
+    "card": "social/cards/card_088_neverTaught.png",
+    "caption": "*Learn a subject your school never taught*\nMany of us never studied economics, or law, or how the body works, simply because it was not on the syllabus.\nStart anywhere. Say: teach me the basics, assume I know nothing, one idea at a time, and stop after each so I can ask.\nNo fees, no admission, no age limit, and nobody watching you struggle with the first lesson.\n\n*वह विषय सीखिए जो स्कूल ने कभी नहीं पढ़ाया*\nहम में से कई ने कभी अर्थशास्त्र नहीं पढ़ा, या कानून, या शरीर कैसे काम करता है, सिर्फ इसलिए कि वह पाठ्यक्रम में नहीं था।\nकहीं से भी शुरू कीजिए। कहिए, मुझे बुनियादी बातें सिखाओ, मान लो मैं कुछ नहीं जानता, एक बार में एक बात, और हर बात के बाद रुक जाओ ताकि मैं पूछ सकूँ।\nन फीस, न दाखिला, न उम्र की सीमा, और पहले पाठ में अटकते हुए कोई देख भी नहीं रहा।"
+  },
+  {
+    "id": "BYTE-089",
+    "num": 89,
+    "title": "AI can see through your camera",
+    "date": "2026-11-11",
+    "card": "social/cards/card_089_cameralive.png",
+    "caption": "*AI can see through your camera*\nSome AI assistants can now look through your camera while you talk. Not a photograph you send, a live view.\nPoint it at a machine and ask which button to press. At a plant and ask what is wrong. At a form and ask what a column means. At a sign in a language you do not read.\nIt is the difference between describing your problem and simply showing it.\n\n*AI अब camera से देख भी सकता है*\nकुछ AI assistants अब बात करते-करते आपके camera से देख सकते हैं। कोई भेजी हुई फोटो नहीं, सीधा दृश्य।\nकिसी मशीन की तरफ कीजिए और पूछिए कौन सा बटन दबाना है। किसी पौधे की तरफ और पूछिए क्या खराबी है। किसी form की तरफ और पूछिए इस खाने का मतलब क्या है। किसी ऐसे बोर्ड की तरफ जिसकी भाषा आप नहीं पढ़ पाते।\nअपनी दिक्कत बताने और सीधे दिखा देने में यही फर्क है।"
+  },
+  {
+    "id": "BYTE-090",
+    "num": 90,
+    "title": "Ask AI to check its own answer",
+    "date": "2026-11-12",
+    "card": "social/cards/card_090_checkitself.png",
+    "caption": "*Ask AI to check its own answer*\nAfter it answers, send one more line: now check that answer for mistakes, and tell me which parts you are least sure about.\nAI will often catch its own errors. More useful still, it points at the weak parts, and those are the parts to verify elsewhere.\nThis does not make AI reliable. It makes its uncertainty visible, which is the next best thing.\n\n*AI से कहिए, अपना जवाब खुद जाँचो*\nजवाब आने के बाद एक पंक्ति और भेजिए, अब इस जवाब में गलतियाँ जाँचो, और बताओ किन हिस्सों पर तुम्हें सबसे कम भरोसा है।\nAI अक्सर अपनी ही गलतियाँ पकड़ लेता है। और ज़्यादा काम की बात यह कि वह कमज़ोर हिस्से बता देता है, और वही हिस्से कहीं और से जाँचने चाहिए।\nइससे AI भरोसेमंद नहीं हो जाता। इससे उसकी अनिश्चितता दिख जाती है, जो अगली सबसे अच्छी बात है।"
+  },
+  {
+    "id": "BYTE-091",
+    "num": 91,
+    "title": "When you do not know what to ask",
+    "date": "2026-11-13",
+    "card": "social/cards/card_091_whattoask.png",
+    "caption": "*When you do not know what to ask*\nThis happens with every new subject. You know you are lost but not where.\nSay exactly that. I am trying to understand this and I do not know enough to ask a proper question. Here is what confuses me. Help me work out what I should be asking.\nAI will give you the questions. Then you are not stuck, only a beginner, which is a much better place to be.\n\n*जब यह भी न पता हो कि क्या पूछें*\nहर नए विषय में ऐसा होता है। पता होता है कि आप भटक गए हैं, पर कहाँ, यह नहीं।\nयही बात कह दीजिए। मैं यह समझने की कोशिश कर रहा हूँ और मुझे इतना भी नहीं आता कि ठीक सवाल पूछ सकूँ। मुझे यह उलझन है। बताओ मुझे क्या पूछना चाहिए।\nAI आपको सवाल दे देगा। फिर आप अटके हुए नहीं रहते, बस शुरुआती रहते हैं, जो कहीं बेहतर जगह है।"
+  },
+  {
+    "id": "BYTE-092",
+    "num": 92,
+    "title": "Tell AI to argue with you",
+    "date": "2026-11-14",
+    "card": "social/cards/card_092_argue.png",
+    "caption": "*Tell AI to argue with you*\nAsk AI to disagree with you.\nAI tends to go along with whatever you suggest. That feels pleasant and is close to useless when you are deciding something.\nSo ask directly. I am thinking of doing this. Give me the three strongest arguments against it.\nYou will see the objections before someone else raises them. If the plan survives, you believe in it more. If it does not, you found out cheaply.\n\n*AI से कहिए कि आपसे बहस करे*\nAI से कहिए कि वह आपसे असहमत हो।\nAI अक्सर आपकी ही बात में हाँ मिला देता है। सुनने में अच्छा लगता है और फैसला लेते वक्त लगभग बेकार होता है।\nइसलिए सीधे कहिए। मैं यह करने की सोच रहा हूँ। इसके खिलाफ तीन सबसे मज़बूत तर्क दो।\nआपत्तियाँ आपको तब दिख जाएँगी जब तक कोई और उठाए। अगर योजना टिक गई, तो भरोसा बढ़ेगा। अगर नहीं टिकी, तो सस्ते में पता चल गया।"
+  },
+  {
+    "id": "BYTE-093",
+    "num": 93,
+    "title": "Learn a skill from your own attempts",
+    "date": "2026-11-15",
+    "card": "social/cards/card_093_ownattempts.png",
+    "caption": "*Learn a skill from your own attempts*\nLearning to cook, to stitch, to wire a plug, to write neatly. Do it, photograph the result, and ask what is wrong and how to fix it next time.\nThis works because the advice is about your work, not the general method. A video cannot see your crooked seam. AI can.\nDo it again. Photograph again. That loop is how skills are actually built.\n\n*अपनी ही कोशिशों से हुनर सीखिए*\nखाना बनाना सीख रहे हों, सिलाई, plug की तार जोड़ना, या साफ लिखावट। कीजिए, नतीजे की फोटो लीजिए, और पूछिए क्या गलत है और अगली बार कैसे ठीक करें।\nयह इसलिए काम करता है क्योंकि सलाह आपके काम पर मिलती है, आम तरीके पर नहीं। कोई video आपकी टेढ़ी सिलाई नहीं देख सकता। AI देख सकता है।\nफिर कीजिए। फिर फोटो लीजिए। यही चक्र असल में हुनर बनाता है।"
+  },
+  {
+    "id": "BYTE-094",
+    "num": 94,
+    "title": "What people mean by an AI agent",
+    "date": "2026-11-16",
+    "card": "social/cards/card_094_agent.png",
+    "caption": "*What people mean by an AI agent*\nAn ordinary AI answers and stops. An agent is given a goal and takes the steps itself, one after another, without being told each one.\nAsk an AI to plan a trip and it writes a plan. Ask an agent, and it may search the options, compare them, and fill in a booking form.\nUseful, and worth watching. Something that acts on its own can be wrong on its own. Check before it does anything that matters.\n\n*AI agent का मतलब क्या है*\nआम AI जवाब देकर रुक जाता है। Agent को एक लक्ष्य दिया जाता है और वह खुद कदम उठाता है, एक के बाद एक, बिना हर कदम बताए।\nAI से यात्रा की योजना माँगिए तो वह योजना लिख देगा। Agent से माँगिए तो वह विकल्प खोज सकता है, तुलना कर सकता है, और booking का form भी भर सकता है।\nकाम का है, और ध्यान देने लायक भी। जो चीज़ खुद काम करती है, वह खुद गलती भी कर सकती है। कोई ज़रूरी काम करने से पहले जाँच लीजिए।"
+  },
+  {
+    "id": "BYTE-095",
+    "num": 95,
+    "title": "Ask AI to plan before it writes",
+    "date": "2026-11-18",
+    "card": "social/cards/card_095_planfirst.png",
+    "caption": "*Ask AI to plan before it writes*\nIf you ask for a full application, report or speech in one go, you get something complete and usually wrong in shape. Then you rewrite all of it.\nInstead say: before writing, give me an outline in points, and wait for my approval.\nFixing an outline takes a minute. Fixing finished writing takes an hour. The order of work matters more than the words.\n\n*AI से कहिए, लिखने से पहले खाका दिखाओ*\nअगर आप पूरा आवेदन, रिपोर्ट या भाषण एक बार में माँगेंगे, तो पूरा तो मिलेगा पर ढाँचा अक्सर गलत होगा। फिर पूरा दोबारा लिखना पड़ता है।\nइसके बजाय कहिए, लिखने से पहले बिंदुओं में रूपरेखा दो, और मेरी मंज़ूरी का इंतज़ार करो।\nरूपरेखा ठीक करने में एक मिनट लगता है। लिखा हुआ ठीक करने में एक घंटा। काम का क्रम शब्दों से ज़्यादा मायने रखता है।"
+  },
+  {
+    "id": "BYTE-096",
+    "num": 96,
+    "title": "Explain it back to AI",
+    "date": "2026-11-19",
+    "card": "social/cards/card_096_explainback.png",
+    "caption": "*Explain it back to AI*\nAfter studying something, type your own explanation in your own words and say: I am trying to explain this. Tell me what I got wrong or left out.\nThe moment you put it in words, you discover which parts you only half understood.\nThis is the oldest learning trick there is. Teaching reveals what reading hides. Now you have someone to teach at any hour.\n\n*AI को समझाकर देखिए*\nकुछ पढ़ने के बाद, अपनी भाषा में उसकी व्याख्या लिखिए और कहिए, मैं यह समझाने की कोशिश कर रहा हूँ। बताओ मैंने क्या गलत कहा या क्या छोड़ दिया।\nजिस पल आप इसे शब्दों में रखने लगते हैं, पता चलता है कि कौन से हिस्से आपने आधे ही समझे थे।\nयह सीखने की सबसे पुरानी तरकीब है। पढ़ाना वह दिखा देता है जो पढ़ना छिपा लेता है। अब सिखाने के लिए कोई हर वक्त मौजूद है।"
+  },
+  {
+    "id": "BYTE-097",
+    "num": 97,
+    "title": "A document the whole family must understand",
+    "date": "2026-11-20",
+    "card": "social/cards/card_097_familydoc.png",
+    "caption": "*A document the whole family must understand*\nA property paper, a school circular about fees, a hospital estimate, a government notice. Usually one person reads it and everyone trusts their summary.\nPhotograph it and ask for a plain explanation, plus what the family must decide and by when.\nCover any account or identity numbers before you photograph. The explanation is useful. The numbers need not leave your home.\n\n*वह कागज़ जो पूरे परिवार को समझना चाहिए*\nसंपत्ति का कागज़, स्कूल की फीस का circular, अस्पताल का अनुमान, कोई सरकारी सूचना। आमतौर पर एक व्यक्ति पढ़ता है और बाकी सब उसके बताए पर भरोसा करते हैं।\nउसकी फोटो लीजिए और सीधी-सादी व्याख्या माँगिए, साथ में यह भी कि घर को क्या और कब तक तय करना है।\nफोटो लेने से पहले खाता या पहचान के नंबर ढक दीजिए। व्याख्या काम की है। नंबरों का घर से बाहर जाना ज़रूरी नहीं।"
+  },
+  {
+    "id": "BYTE-098",
+    "num": 98,
+    "title": "Ask AI what you forgot to ask",
+    "date": "2026-11-21",
+    "card": "social/cards/card_098_forgottoask.png",
+    "caption": "*Ask AI what you forgot to ask*\nAfter you have asked everything you can think of, add this: what have I not asked that I should have?\nAI will raise things that were not on your list. A cost you forgot. A rule that applies. A simpler way to do the whole thing.\nYou cannot ask about what you do not know exists. This one line goes looking for it.\n\n*AI से पूछिए कि आप क्या पूछना भूल गए*\nजो कुछ आपको सूझ सकता था वह पूछ लेने के बाद, यह जोड़िए, मुझे और क्या पूछना चाहिए था जो मैंने नहीं पूछा?\nAI ऐसी बातें उठाएगा जो आपकी सूची में थीं ही नहीं। कोई खर्च जो भूल गए। कोई नियम जो लागू होता है। या पूरा काम करने का कोई आसान तरीका।\nजिसके होने का पता ही न हो, उसके बारे में पूछा कैसे जाए। यह एक पंक्ति उसी को ढूँढने जाती है।"
+  },
+  {
+    "id": "BYTE-099",
+    "num": 99,
+    "title": "The class you did not follow",
+    "date": "2026-11-22",
+    "card": "social/cards/card_099_missedclass.png",
+    "caption": "*The class you did not follow*\nWrite down whatever you remember, however broken, or paste the notes you managed to take. Then say: this is what I caught from a lesson on this topic. Fill in what I missed and tell me what comes before it that I should know.\nThe gap is usually one idea further back, something assumed that you never learnt. Find that, and the class makes sense in hindsight.\n\n*वह कक्षा जो समझ नहीं आई*\nजितना याद है लिख डालिए, चाहे टूटा-फूटा हो, या जो notes बन पाए वे paste कर दीजिए। फिर कहिए, इस विषय की कक्षा से मुझे इतना समझ आया। जो छूट गया वह भरो, और बताओ इससे पहले क्या आता है जो मुझे पता होना चाहिए।\nकमी आमतौर पर एक कदम पीछे होती है, कोई ऐसी बात जो मान ली गई और आपने कभी सीखी नहीं। वह मिल जाए, तो पूरी कक्षा पीछे मुड़कर समझ आ जाती है।"
+  },
+  {
+    "id": "BYTE-100",
+    "num": 100,
+    "title": "What hallucination means",
+    "date": "2026-11-23",
+    "card": "social/cards/card_100_hallucination.png",
+    "caption": "*What hallucination means*\nThere is a word for when AI makes things up. It is called a hallucination. A confident, well-worded answer that is simply not true. A book never written, a rule that does not exist, a wrong date.\nThe word is odd but it fits. AI is not lying, which needs intent. It is producing something that looks right to it and is not.\nNow you have the word, you can name it when you see it, and tell others what to watch for.\n\n*Hallucination का मतलब क्या है*\nAI जब चीज़ें गढ़ लेता है, उसके लिए एक शब्द है। इसे hallucination कहते हैं। आत्मविश्वास से भरा, अच्छे शब्दों वाला जवाब जो सीधा-सीधा गलत होता है। ऐसी किताब जो कभी लिखी ही नहीं गई, ऐसा नियम जो है ही नहीं, गलत तारीख।\nशब्द अजीब है पर सही बैठता है। AI झूठ नहीं बोल रहा, झूठ के लिए इरादा चाहिए। वह कुछ ऐसा बना रहा है जो उसे सही लगता है और है नहीं।\nअब शब्द आपके पास है, तो दिखने पर नाम दे सकते हैं, और दूसरों को भी बता सकते हैं।"
   }
 ]
